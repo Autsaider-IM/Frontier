@@ -1,0 +1,22 @@
+1 exception  System.FormatException
+Exception in Void ThrowFormatException[TChar](System.ReadOnlySpan`1[TChar]), at 11/30/2024 11:39:08:
+Message: The input string 'Poli' was not in a correct format.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s, IFormatProvider provider)
+   at Robust.Shared.Serialization.Markdown.Value.ValueDataNode.AsInt() in C:\Frontier\RobustToolbox\Robust.Shared\Serialization\Markdown\Value\ValueDataNode.cs:line 102
+   at Robust.Server.GameObjects.MapLoaderSystem.AllocEntities(MapData data, BeforeEntityReadEvent ev) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\EntitySystems\MapLoaderSystem.cs:line 458
+   at Robust.Server.GameObjects.MapLoaderSystem.Deserialize(MapData data) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\EntitySystems\MapLoaderSystem.cs:line 277
+   at Robust.Server.GameObjects.MapLoaderSystem.TryLoad(MapId mapId, String path, IReadOnlyList`1& rootUids, MapLoadOptions options) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\EntitySystems\MapLoaderSystem.cs:line 155
+   at Content.Server.Shipyard.Systems.ShipyardSystem.TryAddShuttle(String shuttlePath, Nullable`1& shuttleGrid) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.cs:line 161
+   at Content.Server.Shipyard.Systems.ShipyardSystem.TryPurchaseShuttle(EntityUid stationUid, String shuttlePath, Nullable`1& shuttleEntityUid) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.cs:line 120
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 186
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 266

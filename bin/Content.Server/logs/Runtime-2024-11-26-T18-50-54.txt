@@ -1,0 +1,104 @@
+6 exception s System.Collections.Generic.KeyNotFoundException
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:28:56:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:28:59:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:29:05:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:33:01:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:34:39:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowKeyNotFoundException[T](T), at 11/26/2024 18:45:56:
+Message: The given key 'Hunami' was not present in the dictionary.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 205
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+2 exception s System.InvalidOperationException
+Exception in Void ThrowInvalidOperationException_InvalidOperation_NoValue(), at 11/26/2024 18:46:02:
+Message: Nullable object must have a value.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Nullable`1.get_Value()
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 273
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 209
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
+Exception in Void ThrowInvalidOperationException_InvalidOperation_NoValue(), at 11/26/2024 18:47:16:
+Message: Nullable object must have a value.
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at System.Nullable`1.get_Value()
+   at Content.Server.Shipyard.Systems.ShipyardSystem.OnPurchaseMessage(EntityUid shipyardConsoleUid, ShipyardConsoleComponent component, ShipyardConsolePurchaseMessage args) in C:\Frontier\Content.Server\Shipyard\Systems\ShipyardSystem.Consoles.cs:line 273
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent(EntityUid uid, Object args, Boolean broadcast) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 164
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.OnMessageReceived(BoundUIWrapMessage msg, EntityUid sender) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 131
+   at Robust.Shared.GameObjects.SharedUserInterfaceSystem.<Initialize>b__15_0(BoundUIWrapMessage msg, EntitySessionEventArgs args) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\Systems\SharedUserInterfaceSystem.cs:line 64
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in C:\Frontier\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in C:\Frontier\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 239
