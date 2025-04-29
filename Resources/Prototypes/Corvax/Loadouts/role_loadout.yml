@@ -14,10 +14,10 @@
   id: JobMedSyn
   groups:
   - SmugglerCaptainHead
-  - SmugglerJumpsuit
+  - MedSynJumpsuit
   - SmugglerBags
   - SmugglerGloves
-  - SmugglerGlasses
+  - MedSynGlasses
   - SmugglerShoes
   - SmugglerNeck
   - SmugglerOuterclothing

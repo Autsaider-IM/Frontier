@@ -12,6 +12,22 @@ thief-backpack-button-deselect = Выбрано [X]
 
 # Sets
 
+medic-backpack-category-DefibrillatorSyndicate-name = Набор воскресителя
+medic-backpack-category-DefibrillatorSyndicate-description =
+    Ещё не время умирать, вам так не кажеться?
+    В комплект входят: дефибриллятор Interdyne, пара неплохих аптечек
+    гипоручка, станнер-пулемёт и множества лекарств
+    для лечения критического Состояния!
+medic-backpack-category-Crossbow-name = Набор арбалетчика
+medic-backpack-category-Crossbow-description =
+    Набор содержит всё для обстрела ядами противника и лекарствами
+     союзника,а именно: две боевых аптечки, сумочка с бутылочки
+    ноктарина и омнизина,чертёжшь болта  с губчатым наконечником
+    убойный модернизированый арбалет, колчан с болтами.
+medic-backpack-category-fight-description =
+    Набор для превращения вашего медика в настоящего педика!
+    Атрейдес, горлекс гипоспрей, сумочку с эпинефрином и омнезином,
+    две боевых аптечки,и аптечку со стимпаками
 thief-backpack-category-chameleon-name = Набор хамелеона
 thief-backpack-category-chameleon-description =
     Вы - никто и кто угодно, вы - мастер маскировки.

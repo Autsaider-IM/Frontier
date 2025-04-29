@@ -1,0 +1,45 @@
+- type: thiefBackpackSet
+  id: DefibrillatorSyndicateSet
+  name: medic-backpack-category-DefibrillatorSyndicate-name
+  description: medic-backpack-category-DefibrillatorSyndicate-description
+  sprite:
+    sprite: /Textures/Objects/Specific/Medical/defibsyndi.rsi
+    state: icon
+  content:
+  - NFPouchFirstAidMEdickMedipen
+  - NFPouchFirstAidMEdickBottle
+  - DefibrillatorSyndicate
+  - MedkitAdvancedFilled
+  - MedkitAdvancedFilled
+  - WeaponDisablerSMG
+  - HypopenBox
+
+- type: thiefBackpackSet
+  id: NocturineChemistryBottleSet
+  name: medic-backpack-category-Crossbow-name
+  description: medic-backpack-category-Crossbow-description
+  sprite:
+    sprite: /Textures/_NF/Objects/Weapons/Guns/Crossbow/crossbowhand.rsi
+    state: icon
+  content:
+  - NFBlueprintCrossbowBoltSponge
+  - ClothingBeltQuiverCrossbowFilledBoltMEdic
+  - NFPouchFirstAidMEdickNoctorine
+  - MedkitCombatFilled
+  - MedkitCombatFilled
+  - CrossbowModernHand
+
+- type: thiefBackpackSet
+  id: atreidesSet
+  name: "Набор боевой"
+  description: medic-backpack-category-fight-description
+  sprite:
+    sprite: /Textures/Objects/Weapons/Guns/SMGs/atreides.rsi
+    state: icon
+  content:
+  - StimkitFilled
+  - NFPouchFirstAidMEdickBottle
+  - EnergyDaggerLoud
+  - MedkitCombatFilled
+  - MedkitCombatFilled
+  - SyndiHypo
