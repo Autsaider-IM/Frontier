@@ -1,0 +1,52 @@
+- type: entity
+  parent: CrateNfsdBrigmedic
+  id: CrateNfsdBrigmedic1
+  components:
+  - type: AccessReader
+    access: [["Brigmedic"]]
+  - type: StorageFill
+    contents:
+    - id: MedkitCombatFilled
+      amount: 1
+    - id: MedkitFilled
+      amount: 2
+    - id: DefibrillatorCompact
+      amount: 1
+    - id: WeaponSubMachineGunScorpion
+      amount: 1
+    - id: MagazineRifle
+      amount: 2
+    - id: MedkitAdvancedFilled
+      amount: 1
+
+- type: entity
+  parent: CrateNfsdBrigmedic1
+  id: CrateNfsdBrigmedic2
+  components:
+  - type: StorageFill
+    contents:
+    - id: StimulantAutoInjector
+      amount: 3
+    - id: MedkitFilled
+      amount: 1
+    - id: WeaponSubMachineGunDrozd
+      amount: 1
+    - id: MagazinePistolSubMachineGun
+      amount: 3
+
+- type: entity
+  parent: CrateNfsdBrigmedic1
+  id: CrateNfsdBrigmedic3
+  components:
+  - type: StorageFill
+    contents:
+    - id: HypoBrigmedicPlus
+      amount: 1
+    - id: BruizAutoInjector
+      amount: 2
+    - id: CrisisAutoInjector
+      amount: 1
+    - id: HemostasisAutoInjector
+      amount: 3
+    - id: MedicalAssemblerFlatpack
+      amount: 1

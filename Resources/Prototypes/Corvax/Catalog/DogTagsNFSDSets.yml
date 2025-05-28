@@ -1,0 +1,29 @@
+- type: thiefBackpackSet
+  id: NfsdBrigmedic1Set
+  name: thief-backpack-category-chemistry-name
+  description: thief-backpack-category-chemistry-description
+  sprite:
+    sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi
+    state: blackkit
+  content:
+  - CrateNfsdBrigmedic1
+
+- type: thiefBackpackSet
+  id: NfsdBrigmedic2Set
+  name: thief-backpack-category-chemistry-name
+  description: thief-backpack-category-chemistry-description
+  sprite:
+    sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi
+    state: base
+  content:
+  - CrateNfsdBrigmedic2
+
+- type: thiefBackpackSet
+  id: NfsdBrigmedic3Set
+  name: thief-backpack-category-chemistry-name
+  description: thief-backpack-category-chemistry-description
+  sprite:
+    sprite: _NF/Structures/Machines/medical_assembler.rsi
+    state: mediwave-base
+  content:
+  - CrateNfsdBrigmedic3
