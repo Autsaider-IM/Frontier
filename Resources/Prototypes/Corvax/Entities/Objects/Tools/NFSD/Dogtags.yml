@@ -1,7 +1,7 @@
 - type: entity
   id: DogtagsKit
   name: jetton
-  categories: [HideSpawnMenu]
+  categories: [ HideSpawnMenu ]
   parent: [ CDDogtags, BaseC2ContrabandUnredeemable ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: ActivatableUI
