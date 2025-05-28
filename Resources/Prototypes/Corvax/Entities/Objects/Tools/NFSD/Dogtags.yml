@@ -22,3 +22,28 @@
     - NfsdBrigmedic1Set
     - NfsdBrigmedic2Set
     - NfsdBrigmedic3Set
+
+- type: entity
+  id: DogtagsDeputy
+  suffix: Deputy
+  parent: DogtagsKit
+  components:
+  - type: ThiefUndeterminedBackpack
+    maxSelectedSets: 1
+    possibleSets:
+    - NfsdDeputy1Set
+    - NfsdDeputy2Set
+    - NfsdDeputy3Set
+    - NfsdDeputy4Set
+
+- type: entity
+  id: DogtagsCadet
+  suffix: Cadet
+  parent: DogtagsKit
+  components:
+  - type: ThiefUndeterminedBackpack
+    maxSelectedSets: 1
+    possibleSets:
+    - NfsdCadet1Set
+    - NfsdCadet2Set
+    - NfsdCadet3Set
