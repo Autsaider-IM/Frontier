@@ -5,6 +5,18 @@
   components:
   - type: Sprite
     sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
+    layers: &secThrusterLayers
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 1
   - type: Machine
     board: ThrusterSyndicateMachineCircuitboard
 
@@ -17,15 +29,28 @@
     sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
   - type: Machine
     board: ThrusterSyndicateMachineCircuitboard
-  
+
 - type: entity
   id: GyroscopeSyndicate
   parent: GyroscopeSecurity
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: Corvax/Structures/Shuttles/syndicategyroscope.rsi
-    snapCardinals: true
+    sprite: Corvax\Structures\Shuttles\syndicategyroscope.rsi
+    layers: &secGyroLayers
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn
+      map: [ "enum.ThrusterVisualLayers.Thrusting" ]
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
   - type: Machine
     board: GyroscopeSyndicateMachineCircuitboard
 
