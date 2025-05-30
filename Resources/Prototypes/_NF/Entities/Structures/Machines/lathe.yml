@@ -179,7 +179,6 @@
     runningState: icon
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
-    - CorvaxAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - CorvaxPracticAmmo #Corvax-Frontier
     - NFMercenaryTechfabDeprecated
