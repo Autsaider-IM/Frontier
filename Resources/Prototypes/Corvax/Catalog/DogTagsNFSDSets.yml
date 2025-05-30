@@ -1,8 +1,8 @@
 # Brigmedic
 - type: thiefBackpackSet
   id: NfsdBrigmedic1Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdBrigmedic1Set-name
+  description: NfsdBrigmedic1Set-description
   sprite:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi
     state: blackkit
@@ -11,8 +11,8 @@
 
 - type: thiefBackpackSet
   id: NfsdBrigmedic2Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdBrigmedic2Set-name
+  description: NfsdBrigmedic2Set-description
   sprite:
     sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi
     state: base
@@ -21,8 +21,8 @@
 
 - type: thiefBackpackSet
   id: NfsdBrigmedic3Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdBrigmedic3Set-name
+  description: NfsdBrigmedic3Set-description
   sprite:
     sprite: _NF/Structures/Machines/medical_assembler.rsi
     state: mediwave-base
@@ -32,8 +32,8 @@
 # Deputy
 - type: thiefBackpackSet
   id: NfsdDeputy1Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdDeputy1Set-name
+  description: NfsdDeputy1Set-description
   sprite:
     sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
     state: icon
@@ -42,8 +42,8 @@
 
 - type: thiefBackpackSet
   id: NfsdDeputy2Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdDeputy2Set-name
+  description: NfsdDeputy2Set-description
   sprite:
     sprite: _NF/Objects/Weapons/Guns/Rifles/lecter.rsi
     state: base
@@ -52,8 +52,8 @@
 
 - type: thiefBackpackSet
   id: NfsdDeputy3Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdDeputy3Set-name
+  description: NfsdDeputy3Set-description
   sprite:
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
     state: icon
@@ -62,8 +62,8 @@
 
 - type: thiefBackpackSet
   id: NfsdDeputy4Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdDeputy4Set-name
+  description: NfsdDeputy4Set-description
   sprite:
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
     state: icon
@@ -74,8 +74,8 @@
 
 - type: thiefBackpackSet
   id: NfsdCadet1Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdCadet1Set-name
+  description: NfsdCadet1Set-description
   sprite:
     sprite: Corvax/Objects/Weapons/Guns/Pistols/moonwhisper.rsi
     state: base
@@ -84,8 +84,8 @@
 
 - type: thiefBackpackSet
   id: NfsdCadet2Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdCadet2Set-name
+  description: NfsdCadet2Set-description
   sprite:
     sprite: Corvax/Objects/Weapons/Guns/SMGs/scorpion.rsi
     state: base
@@ -94,8 +94,8 @@
 
 - type: thiefBackpackSet
   id: NfsdCadet3Set
-  name: thief-backpack-category-chemistry-name
-  description: thief-backpack-category-chemistry-description
+  name: NfsdCadet3Set-name
+  description: NfsdCadet3Set-description
   sprite:
     sprite: _NF/Objects/Weapons/Guns/Shotguns/pump.rsi
     state: icon
