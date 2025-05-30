@@ -1,11 +1,11 @@
-meta:
+meta: #
   format: 7
   category: Grid
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/28/2025 06:03:24
-  entityCount: 2247
+  time: 05/15/2025 05:28:50
+  entityCount: 2257
 maps: []
 grids:
 - 3
@@ -11780,25 +11780,40 @@ entities:
       parent: 3
 - proto: SpawnPointLatejoin
   entities:
-  - uid: 1086
+  - uid: 2251
     components:
     - type: Transform
-      pos: 11.5,25.5
+      pos: 6.5,25.5
       parent: 3
-  - uid: 2239
+  - uid: 2252
     components:
     - type: Transform
-      pos: 11.5,24.5
+      pos: 6.5,30.5
       parent: 3
-  - uid: 2240
+  - uid: 2253
     components:
     - type: Transform
-      pos: 11.5,27.5
+      pos: 19.5,18.5
       parent: 3
-  - uid: 2247
+  - uid: 2254
     components:
     - type: Transform
-      pos: 11.5,26.5
+      pos: 18.5,18.5
+      parent: 3
+  - uid: 2255
+    components:
+    - type: Transform
+      pos: 17.5,18.5
+      parent: 3
+  - uid: 2256
+    components:
+    - type: Transform
+      pos: 38.5,26.5
+      parent: 3
+  - uid: 2257
+    components:
+    - type: Transform
+      pos: 36.5,26.5
       parent: 3
 - proto: SpawnPointMercenary
   entities:
