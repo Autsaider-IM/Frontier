@@ -558,3 +558,27 @@
   completetime: 1
   materials:
     CreditCounterfeit: 750
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  id: WeaponRifleJackdawRecipe
+  result: WeaponRifleJackdaw
+  completetime: 1
+  materials:
+    CreditCounterfeit: 40450
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  id: WeaponSubMachineP90LRKRecipe
+  result: WeaponSubMachineP90LRK
+  completetime: 1
+  materials:
+    CreditCounterfeit: 64200
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  id: WeaponRifleJackdawRecipe
+  result: WeaponRifleJackdaw
+  completetime: 1
+  materials:
+    CreditCounterfeit: 40450
