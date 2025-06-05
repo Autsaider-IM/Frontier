@@ -4,8 +4,8 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/11/2025 12:00:56
-  entityCount: 596
+  time: 06/05/2025 10:22:43
+  entityCount: 598
 maps: []
 grids:
 - 1
@@ -2654,6 +2654,20 @@ entities:
       parent: 274
     - type: Physics
       canCollide: False
+- proto: LockerWallMaterialsFuelUraniumFilled2
+  entities:
+  - uid: 110
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.5,4.5
+      parent: 1
+  - uid: 111
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,4.5
+      parent: 1
 - proto: MachineCentrifuge
   entities:
   - uid: 267
@@ -2789,17 +2803,17 @@ entities:
     - type: Transform
       pos: 12.5,11.5
       parent: 1
-- proto: PortableGeneratorPacmanShuttle
+- proto: PortableGeneratorSuperPacmanShuttle
   entities:
   - uid: 318
     components:
     - type: Transform
-      pos: 3.5,5.5
+      pos: 9.5,5.5
       parent: 1
   - uid: 319
     components:
     - type: Transform
-      pos: 9.5,5.5
+      pos: 3.5,5.5
       parent: 1
 - proto: Poweredlight
   entities:
@@ -3115,6 +3129,20 @@ entities:
           - 310
           - 309
           - 311
+- proto: ShuttleGunSunset
+  entities:
+  - uid: 597
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.5,21.5
+      parent: 1
+  - uid: 598
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,21.5
+      parent: 1
 - proto: SignalButtonWindows
   entities:
   - uid: 459
@@ -3167,18 +3195,6 @@ entities:
     components:
     - type: Transform
       pos: 3.5,7.5
-      parent: 1
-- proto: SpawnMobWeaponTurretSyndicateMagnumAP
-  entities:
-  - uid: 110
-    components:
-    - type: Transform
-      pos: 4.5,21.5
-      parent: 1
-  - uid: 111
-    components:
-    - type: Transform
-      pos: 8.5,21.5
       parent: 1
 - proto: StairDark
   entities:

@@ -36,9 +36,8 @@
   equipment:
     ears: ClothingHeadsetAltSyndicate
     id: SyndiPDAComa
-    belt: ClothingBeltAssault
+    belt: ClothingBeltSheathFilled
     pocket1: WeaponPistolCobra
-    pocket2: MagazinePistolCaselessRifle
     mask: ClothingMaskGasSwat
   storage:
     back:
