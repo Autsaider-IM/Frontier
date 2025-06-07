@@ -141,14 +141,11 @@
     - NFNfsdTechfabDeprecatedStatic
     - ReportingStatic # DeltaV
     - CorvaxAmmoStatic #Corvax-Frontier
-    - NFNfsdTechfabDeprecated #Corvax-Frontier
+    dynamicPacks:
+    - NFNfsdTechfabDeprecated
+    - CorvaxShuttleGunsDynamic #Corvax-Frontier
     - CorvaxAmmoDynamic #Corvax-Frontier
     - CorvaxPracticAmmo #Corvax-Frontier
-    dynamicPacks:
-#    - NFNfsdTechfabDeprecated
-    - CorvaxShuttleGunsDynamic #Corvax-Frontier
-#    - CorvaxAmmoDynamic #Corvax-Frontier
-#    - CorvaxPracticAmmo #Corvax-Frontier
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFNfsdTechfabDeprecatedEmag
