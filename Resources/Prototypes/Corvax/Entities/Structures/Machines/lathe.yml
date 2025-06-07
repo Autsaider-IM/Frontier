@@ -27,4 +27,7 @@
   - type: MaterialStorage
     whitelist:
       tags:
-        - SSpaceCash
+        - SpaceCash
+        - Sheet
+        - RawMaterial
+        - Ingot
