@@ -179,9 +179,6 @@ public sealed class RespiratorSystem : EntitySystem
     /// </summary>
     public bool CanMetabolizeInhaledAir(Entity<RespiratorComponent?> ent)
     {
-        if (!HasComp<RespiratorComponent>(ent.Owner))
-            return false;
-
         if (!Resolve(ent, ref ent.Comp))
             return false;
 
@@ -201,9 +198,6 @@ public sealed class RespiratorSystem : EntitySystem
     /// </summary>
     public bool CanMetabolizeGas(Entity<RespiratorComponent?> ent, GasMixture gas)
     {
-        if (!HasComp<RespiratorComponent>(ent.Owner))
-            return false;
-
         if (!Resolve(ent, ref ent.Comp))
             return false;
 

@@ -4,7 +4,7 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/05/2025 15:47:53
+  time: 05/13/2025 08:31:34
   entityCount: 695
 maps: []
 grids:
@@ -711,6 +711,8 @@ entities:
           - 0
         chunkSize: 4
     - type: GasTileOverlay
+    - type: MercenaryBountyDatabase
+      bounties: []
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Corvet
