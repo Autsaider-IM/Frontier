@@ -36,7 +36,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: Corvax\Structures\Shuttles\syndicategyroscope.rsi
+    sprite: Corvax/Structures/Shuttles/syndicategyroscope.rsi
     layers: &secGyroLayers
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
