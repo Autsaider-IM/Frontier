@@ -254,9 +254,6 @@ namespace Content.Server.GameTicking
 
             var newMind = _mind.CreateMind(data!.UserId, character.Name);
             _mind.SetUserId(newMind, data.UserId);
-
-            var jobPrototype = _prototypeManager.Index<JobPrototype>(jobId);
-
             _playTimeTrackings.PlayerRolesChanged(player);
 
             // Delta-V: Add AlwaysUseSpawner.
