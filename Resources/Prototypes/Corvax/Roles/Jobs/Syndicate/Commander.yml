@@ -41,7 +41,7 @@
     mask: ClothingMaskGasSwat
   storage:
     back:
-    - BoxSurvivalNFOxygenExtended
+    - NFBoxSurvivalExtended
     - MagazinePistolCaselessRifle
     - MagazineBoxCaselessRifle
     - SyndicateDataMinerFlatpack
