@@ -110,7 +110,6 @@
       - NFPosterContrabandWyvernShipyards
       - NFPosterContrabandRatvarLives
       - NFPosterContrabandFsbNightlight
-      - NFPosterContrabandFsbRetort
         # Frontier: Ending
       - PosterContrabandTrueEnemy #CorvaxFrontier
     chance: 1
@@ -187,6 +186,5 @@
       - NFPosterLegitWantedClarpy
       - NFPosterLegitMothPlease
       - NFPosterLegitHaveYouSeenThisEgg
-      - NFPosterLegitGunTurnIn
         # End Frontier
     chance: 1

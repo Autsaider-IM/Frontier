@@ -1,7 +1,6 @@
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Server.Chemistry.Components;
-using Content.Shared._DV.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Events;
 using Content.Shared.Inventory;
@@ -91,11 +90,6 @@ public sealed class SolutionInjectOnCollideSystem : EntitySystem
         {
             if (Deleted(target))
                 continue;
-
-            // Frontier: Block injections
-            if (TryComp<BlockInjectionComponent>(target, out var blockInjection) && blockInjection.BlockInjectOnProjectile)
-                continue;
-            // End Frontier
 
             // Yuck, this is way to hardcodey for my tastes
             // TODO blocking injection with a hardsuit should probably done with a cancellable event or something

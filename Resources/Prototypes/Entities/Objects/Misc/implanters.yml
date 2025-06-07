@@ -83,7 +83,6 @@
           type: DeimplantBoundUserInterface
     - type: StaticPrice # Frontier
       price: 35 # Frontier
-    - type: GoblinPreciousTrash # Frontier
 
 - type: entity
   id: Implanter
@@ -124,7 +123,6 @@
     - type: Implanter
       currentMode: Inject
       implantOnly: true
-    - type: GoblinPreciousTrash # Frontier
 
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
@@ -133,7 +131,6 @@
   description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
   abstract: true
   components:
-    - type: GoblinPreciousTrash # Frontier
     - type: Item
       sprite: Objects/Specific/Medical/syndi_implanter.rsi
       heldPrefix: implanter

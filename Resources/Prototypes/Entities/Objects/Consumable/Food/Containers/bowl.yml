@@ -6,7 +6,6 @@
   id: FoodBowlBig
   description: A simple bowl, used for soups and salads.
   components:
-  - type: GoblinPreciousTrash # Frontier
   - type: Item
     storedRotation: -90
   - type: SolutionContainerManager

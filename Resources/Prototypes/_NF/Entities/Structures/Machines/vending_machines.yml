@@ -488,20 +488,22 @@
   description: A vandalized ClothesMate.
   components:
   - type: VendingMachine
-    pack: VendingMachineBountyVendPunkInventory
-    offState: off
+    pack: VendingMachineClothingPunkInventory
+    offState: broken
     brokenState: broken
-    normalState: normal-unshaded
-    ejectState: eject-unshaded
-    denyState: deny-unshaded
+    normalState: clothing-vandalized-unshaded
+    denyState: clothing-vandalized-deny-unshaded
   - type: Advertise
-    pack: VandalizedBountyVendAds
+    pack: VandalizedClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/threadschoom.rsi
+    sprite: Structures/Machines/VendingMachines/clothing.rsi
     layers:
-    - state: "off"
+    - state: "broken"
       map: ["enum.VendingMachineVisualLayers.Base"]
-    - state: "off"
+    - sprite: _NF/Structures/Machines/VendingMachines/vandalized.rsi
+      state: clothing-vandalized-unshaded
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
@@ -511,12 +513,6 @@
       map: [ "graffiti" ]
       shader: unshaded
       scale: 0.7, 0.7
-  - type: PointLight
-    radius: 1.4
-    energy: 1.7
-    softness: 0.9
-    offset: "0, -0.6"
-    color: "#f96363"
 
 - type: entity
   parent:
@@ -528,19 +524,17 @@
   components:
   - type: VendingMachine
     pack: VendingMachineBountyVendPunkInventory
-    offState: off
+    offState: broken
     brokenState: broken
     normalState: normal-unshaded
-    ejectState: eject-unshaded
-    denyState: deny-unshaded
   - type: Advertise
     pack: VandalizedBountyVendAds
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/bonanzamatic.rsi
+    sprite: _NF/Structures/Machines/VendingMachines/bountyvend.rsi
     layers:
-    - state: "off"
+    - state: "broken"
       map: ["enum.VendingMachineVisualLayers.Base"]
-    - state: "off"
+    - state: "broken"
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
@@ -551,11 +545,9 @@
       shader: unshaded
       scale: 0.7, 0.7
   - type: PointLight
-    radius: 1.4
-    energy: 1.7
-    softness: 0.9
-    offset: "0, -0.6"
-    color: "#85daeb"
+    radius: 1.1
+    energy: 1.2
+    color: "#4b93ad"
 
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, VendingMachine]

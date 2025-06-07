@@ -85,10 +85,7 @@ public sealed class NFAdventureRuleSystem : GameRuleSystem<NFAdventureRuleCompon
         ev.AddLine(Loc.GetString("adventure-list-start"));
         var allScore = new List<Tuple<string, int>>();
 
-        var sortedPlayers = _players.ToList();
-        sortedPlayers.Sort((p1, p2) => p1.Value.Name.CompareTo(p2.Value.Name));
-
-        foreach (var (player, playerInfo) in sortedPlayers)
+        foreach (var (player, playerInfo) in _players)
         {
             var endBalance = playerInfo.EndBalance;
             if (_bank.TryGetBalance(player, out var bankBalance))

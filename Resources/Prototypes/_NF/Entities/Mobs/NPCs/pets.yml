@@ -68,7 +68,7 @@
     description: ghost-role-information-clarpy-description
     rules: ghost-role-information-clarpy-rules
     prototype: CatClarpy
-    mindRoles: [ MindRoleGhostRoleNFPirate ]
+    mindRoles: [ MindRoleGhostRoleTeamAntagonist ]
   - type: Loadout
     prototypes: [ MobClarpyGear ]
   - type: ReplacementAccent
@@ -94,7 +94,6 @@
       rolloffFactor: 4.5
       pitch: 0.7
   - type: AutoPirate
-    applyFaction: false
 
 - type: entity
   id: MobCatCappy

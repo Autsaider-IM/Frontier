@@ -112,15 +112,3 @@
     solutions:
       drink:
         maxVol: 10
-
-# mystery liquid bottle
-- type: entity
-  parent: BaseChemistryBottleFilled
-  id: ChemistryBottleMysteryLiquid
-  suffix: Mystery liquid
-  components:
-  - type: RandomFillSolution
-    solution: drink
-    weightedRandomId: RandomFillStrangePill
-  - type: PressurizedSolution
-    solution: drink

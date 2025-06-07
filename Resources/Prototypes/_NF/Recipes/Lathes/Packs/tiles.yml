@@ -36,22 +36,6 @@
   - FloorTileItemMime
   - FloorTileItemKitchen
   - FloorTileItemLaundry
-  - FloorTileItemGoldMono
-  - FloorTileItemSilverMono
-  - FloorTileItemGreenMono
-  - FloorTileItemLightBlueMono
-  - FloorTileItemLightGreenMono
-  - FloorTileItemLightPinkMono
-  - FloorTileItemLightYellowMono
-  - FloorTileItemOrangeMono
-  - FloorTileItemSus
-  - FloorTileItemLightRedMono
-  - FloorTileItemRedMono
-  - FloorTileItemCheckerboardWood
-  - FloorTileItemLightMosaicWood
-  - FloorTileItemFancyWood
-  - FloorTileItemVersaillesWood
-  - FloorTileItemCheese
 
 - type: latheRecipePack
   id: NFFloorTilesStrange

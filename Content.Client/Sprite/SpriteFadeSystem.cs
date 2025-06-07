@@ -40,10 +40,7 @@ public sealed class SpriteFadeSystem : EntitySystem
 
     private void OnFadingShutdown(EntityUid uid, FadingSpriteComponent component, ComponentShutdown args)
     {
-        if (!TryComp(uid, out MetaDataComponent? meta)) // Frontier
-            return; // Frontier
-
-        if (meta.EntityLifeStage >= EntityLifeStage.Terminating || !TryComp<SpriteComponent>(uid, out var sprite)) // Frontier: MetaData(uid)<meta
+        if (MetaData(uid).EntityLifeStage >= EntityLifeStage.Terminating || !TryComp<SpriteComponent>(uid, out var sprite))
             return;
 
         sprite.Color = sprite.Color.WithAlpha(component.OriginalAlpha);

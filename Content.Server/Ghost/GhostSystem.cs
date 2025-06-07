@@ -1,6 +1,5 @@
 using System.Linq;
 using System.Numerics;
-using Content.Server._NF.CryoSleep; // Frontier
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers; // Frontier
 using Content.Server.Cargo.Systems; // Frontier
@@ -72,7 +71,6 @@ namespace Content.Server.Ghost
         [Dependency] private readonly TagSystem _tag = default!;
         [Dependency] private readonly NameModifierSystem _nameMod = default!;
         [Dependency] private readonly IAdminManager _admin = default!; // Frontier
-        [Dependency] private readonly CryoSleepSystem _cryo = default!; // Frontier
 
         private EntityQuery<GhostComponent> _ghostQuery;
         private EntityQuery<PhysicsComponent> _physicsQuery;
@@ -515,7 +513,6 @@ namespace Content.Server.Ghost
             }
 
             SetCanReturnToBody(ghostComponent, canReturn);
-            SetCanReturnFromCryo(ghostComponent, mind.Comp.UserId != null ? _cryo.HasCryosleepingBody(mind.Comp.UserId.Value) : false); // Frontier
 
             if (canReturn)
                 _minds.Visit(mind.Owner, ghost, mind.Comp);

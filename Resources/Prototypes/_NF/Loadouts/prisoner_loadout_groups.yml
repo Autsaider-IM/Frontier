@@ -33,8 +33,6 @@
   loadouts:
   - PrisonerEmergencyOxygenTankFilled
   - PrisonerEmergencyNitrogenTankFilled
-  - PrisonerEmergencyOxygenTankFilledSheleg
   fallbacks:
   - PrisonerEmergencyOxygenTankFilled
   - PrisonerEmergencyNitrogenTankFilled
-  - PrisonerEmergencyOxygenTankFilledSheleg

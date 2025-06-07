@@ -49,7 +49,7 @@
   id: ComputerShipyard
   components:
   - type: ShipyardConsole
-    newJobTitle: Captain
+    newJobTitle: Капитан
 
 - type: entity
   id: ComputerShipyardSecurity

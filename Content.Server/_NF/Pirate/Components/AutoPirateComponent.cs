@@ -7,6 +7,4 @@ namespace Content.Server._NF.Pirate.Components;
 [RegisterComponent]
 public sealed partial class AutoPirateComponent : Component
 {
-    [DataField]
-    public bool ApplyFaction = true;
 }

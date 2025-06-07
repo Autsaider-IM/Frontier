@@ -24,6 +24,9 @@
     runningState: icon
     staticPacks:
     - SyndicateTechfabStatic
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - NFNfsdTechfabDeprecatedEmag
   - type: MaterialStorage
     whitelist:
       tags:

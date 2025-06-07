@@ -481,10 +481,7 @@
     soundHit:
       collection: MetalThud
   - type: Item
-    size: Large # Frontier Normal<Large
-    shape: # Frontier
-    - 0,0,3,0 # Frontier
-    storedRotation: 45 # Frontier
+    size: Normal
     sprite: Objects/Tools/shovel.rsi
   - type: PhysicalComposition
     materialComposition:

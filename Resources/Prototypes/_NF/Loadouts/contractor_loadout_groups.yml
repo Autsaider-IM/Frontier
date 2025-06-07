@@ -207,6 +207,7 @@
   - ContractorClothingUniformJumpskirtBlueTurtleneckDress
   - ContractorClothingUniformJumpskirtYellowTurtleneckDress
   - ContractorClothingUniformJumpskirtYellowOldDress
+
   fallbacks:
   - ContractorClothingUniformJumpsuitColorGrey
   - ContractorClothingUniformJumpskirtColorGrey
@@ -869,15 +870,13 @@
   name: loadout-group-contractor-survival-box
   minLimit: 1
   loadouts:
-  - ContractorNFBoxSurvival
-  - ContractorNFBoxSurvivalNitrogen
-  - ContractorNFBoxSurvivalExtended
-  - ContractorNFBoxSurvivalSheleg
-  - ContractorNFBoxSurvivalExtendedSheleg
+  - ContractorBoxSurvivalNFOxygen
+  - ContractorBoxSurvivalNFNitrogen
+  - ContractorBoxSurvivalNFOxygenExtended
+  - ContractorBoxSurvivalNFNitrogenExtended
   fallbacks:
-  - ContractorNFBoxSurvival
-  - ContractorNFBoxSurvivalNitrogen
-  - ContractorNFBoxSurvivalSheleg
+  - ContractorBoxSurvivalNFOxygen
+  - ContractorBoxSurvivalNFNitrogen
 
 - type: loadoutGroup
   id: ContractorEncryptionKey

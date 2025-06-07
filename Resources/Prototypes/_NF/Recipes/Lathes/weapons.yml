@@ -1,8 +1,8 @@
-# region Ranged weapons
+# Ranged weapons
 - type: latheRecipe
-  id: WeaponNFLaserPistol
+  id: WeaponLaserPistolNF
   parent: BaseWeaponRecipeLong
-  result: WeaponNFLaserPistol
+  result: WeaponLaserPistolNF
   materials:
     Steel: 1200
     Glass: 800
@@ -72,7 +72,7 @@
     Durathread: 500
     Plastic: 500
 
-# region Melee weapons
+# Melee weapons
 - type: latheRecipe
   id: BaseBallBatNF
   parent: BaseWeaponRecipeLong

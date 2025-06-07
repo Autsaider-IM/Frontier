@@ -80,8 +80,6 @@
       collection: Belch # Frontier
     Squish: # Frontier
       collection: HarpySquishes # Frontier
-    MonkeyScreeches: # Frontier
-      collection: MonkeyScreeches # Frontier
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -130,8 +128,6 @@
       collection: MaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
-    MonkeyScreeches: # Frontier
-      collection: MonkeyScreeches # Frontier
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -180,8 +176,6 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
-    MonkeyScreeches: # Frontier
-      collection: MonkeyScreeches # Frontier
 
 - type: emoteSounds
   id: MobDog

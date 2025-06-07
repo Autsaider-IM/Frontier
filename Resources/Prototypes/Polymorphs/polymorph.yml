@@ -140,11 +140,11 @@
 - type: polymorph
   id: ArtifactMonkey
   configuration:
-    entity: MobMonkeyNoInventory # Frontier: MobMonkey<MobMonkeyNoInventory
+    entity: MobMonkey
     forced: true
     transferName: true
-    # allowRepeatedMorphs: true # Frontier
-    inventory: None # Frontier: Transfer<None
+    allowRepeatedMorphs: true
+    inventory: Transfer
     revertOnCrit: true
     revertOnDeath: true
     duration: 20

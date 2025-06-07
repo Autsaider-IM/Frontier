@@ -38,11 +38,9 @@
     - proto: MobCarpRainbow # carp version of rouny...
       cost: 3
       prob: 0.05
-    # Frontier: abstracted
-    # - proto: MobDragonDungeon
-    #   cost: 10
-    #   prob: 0.02
-    # End Frontier: abstracted
+    - proto: MobDragonDungeon
+      cost: 10
+      prob: 0.02
   configs:
     DefenseStructure: CarpStatue
-    # Megafauna: MobDragonDungeon # Frontier: abstracted
+    Megafauna: MobDragonDungeon

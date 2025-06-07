@@ -491,10 +491,6 @@ public enum LogType
     /// A medical bounty was redeemed.
     /// </summary>
     MedicalBountyRedeemed = 207,
-    /// <summary>
-    /// Shuttle info was changed.
-    /// </summary>
-    ShuttleInfoChanged = 208,
     #endregion Frontier Values
     // End Frontier
 }

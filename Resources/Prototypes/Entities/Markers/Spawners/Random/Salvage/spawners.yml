@@ -202,10 +202,7 @@
         weight: 35
       - !type:NestedSelector
         tableId: SalvageTreasureRare
-        weight: 7.5 # Frontier: 15<7.5
-      - !type:NestedSelector # Frontier
-        tableId: TableStashVariety # Frontier
-        weight: 7.5 # Frontier
+        weight: 15
       - !type:NestedSelector
         tableId: SalvageTreasureLegendary
         weight: 5

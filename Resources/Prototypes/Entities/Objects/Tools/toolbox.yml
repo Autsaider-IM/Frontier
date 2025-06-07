@@ -15,9 +15,7 @@
     grid:
     - 0,0,6,3
   - type: Item
-    size: Large # Frontier: Ginormous<Large
-    shape: # Frontier
-    - 0,0,6,3 # Frontier
+    size: Ginormous
   - type: MeleeWeapon
     damage:
       types:
@@ -126,7 +124,6 @@
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
     state: icon
   - type: Item
-    size: Ginormous # Frontier
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
   - type: Storage
     maxItemSize: Huge

@@ -41,7 +41,7 @@
     mask: ClothingMaskNeckGaiter
   storage:
     back:
-    - NFBoxSurvivalExtended
+    - BoxSurvivalNFOxygenExtended
     - RubberStampSyndicate
     - ExchangerSyndicateFlatpack
     - ReinforcementRadioSyndicateSmugger

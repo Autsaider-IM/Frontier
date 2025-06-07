@@ -248,3 +248,15 @@
     name: "Неизвестно" #Corvax-Frontier
   - type: ApcPowerReceiver
     powerDisabled: false #starts off
+
+# Ships
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineShipMcCargo
+  suffix: Ship, McCargo
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: FaxMachine
+    useStationName: true
+    stationNameSuffix: McDrive Thru
+  - type: PowerSwitch

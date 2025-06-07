@@ -62,16 +62,29 @@
   components:
   - type: StationEvent
     weight: 4
-    earliestStart: 15
-    reoccurrenceDelay: 45
-    startAnnouncement: station-event-solar-flare-nf-start-announcement
-    endAnnouncement: station-event-solar-flare-nf-end-announcement
+    earliestStart: 15 # Frontier
+    reoccurrenceDelay: 45 # Frontier
+    startAnnouncement: station-event-solar-flare-nf-start-announcement # Frontier: add nf-
+    endAnnouncement: station-event-solar-flare-nf-end-announcement # Frontier: add nf-
     startAudio:
       path: /Audio/Announcements/attention.ogg
     duration: 120
     maxDuration: 240
   - type: SolarFlareRule
-    allChannels: true
+    onlyJamHeadsets: true
+    affectedChannels:
+    - Common
+    extraChannels:
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    - Traffic # Frontier
+    - Nfsd # Frontier
+    extraCount: 2
     lightBreakChancePerSecond: 0.0003
     doorToggleChancePerSecond: 0.001
 

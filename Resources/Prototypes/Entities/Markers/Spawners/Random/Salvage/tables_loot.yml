@@ -162,8 +162,6 @@
       weight: 0.05 # Frontier
     - id: CardBoxSyndicate # Frontier
       weight: 0.005 # Frontier
-    - !type:NestedSelector # Frontier
-      tableId: TableStashVariety # Frontier
 
 - type: entityTable
   id: SalvageTreasureLegendary
@@ -181,8 +179,6 @@
       tableId: RingTableRare
       rolls: !type:RangeNumberSelector
         range: 2, 3
-    - !type:NestedSelector # Frontier
-      tableId: TableStashVariety # Frontier
 
 # Equipment: Tools and things used by salvagers. Quote unquote "Gamer Loot"
 
@@ -264,7 +260,6 @@
       - id: JetpackMini # Frontier JetpackBlack<JetpackMini
     - id: MysterySpaceBladeBox # Frontier
     - id: CrossbowModernHand # Frontier
-    - id: NFWeaponHoloflareGun # Frontier
 
 - type: entityTable
   id: SalvageEquipmentLegendary
@@ -280,8 +275,6 @@
       children:
       - id: JetpackBlueFilled
       - id: JetpackMiniFilled # Frontier JetpackBlackFilled<JetpackMiniFilled
-    - id: PowerCellAntiqueProto # Frontier
-    - id: NFShovel # Frontier
 
 - type: entityTable
   id: RandomGeneratorTable

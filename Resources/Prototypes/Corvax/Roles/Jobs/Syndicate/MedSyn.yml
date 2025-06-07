@@ -45,7 +45,7 @@
     mask: ClothingMaskNeckGaiterRed
   storage:
     back:
-    - NFBoxSurvivalExtended
+    - BoxSurvivalNFOxygenExtended
     - HypoBrigmedic
     - PillCanisterTricordrazine
     - SyndicateDataMinerFlatpack

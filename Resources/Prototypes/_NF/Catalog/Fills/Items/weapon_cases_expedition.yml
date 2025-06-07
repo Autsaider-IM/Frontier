@@ -21,7 +21,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponPistolN1984Expedition
+    - id: WeaponPistolN1984
       amount: 1
     - id: MagazineMagnum
       amount: 2
@@ -34,7 +34,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponPistolViperExpedition
+    - id: WeaponPistolViper
       amount: 1
     - id: MagazinePistol
       amount: 2
@@ -47,7 +47,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponPistolCobraExpedition
+    - id: WeaponPistolCobra
       amount: 1
     - id: MagazinePistolCaselessRifle
       amount: 1
@@ -126,7 +126,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverPythonExpedition
+    - id: WeaponRevolverPython
       amount: 1
     - id: SpeedLoaderMagnum
       amount: 2
@@ -199,6 +199,32 @@
 # Shotguns
 - type: entity
   parent: WeaponCaseShort
+  id: WeaponCaseShortHandmadeExpedition
+  suffix: Dungeon, Handmade Pistol
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunHandmadeExpedition
+      amount: 1
+    - id: BoxLethalshot
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongShotgunDoubleBarreledExpedition
+  suffix: Dungeon, Double Barreled
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunDoubleBarreledExpedition
+      amount: 1
+    - id: BoxLethalshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
   id: WeaponCaseShortSawnExpedition
   suffix: Dungeon, Sawn-off
   categories: [ HideSpawnMenu ]
@@ -244,7 +270,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunBulldogExpedition
+    - id: WeaponShotgunBulldog
       amount: 1
     - id: MagazineShotgun
       amount: 2
@@ -318,7 +344,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunC20rExpedition
+    - id: WeaponSubMachineGunC20r
       amount: 1
     - id: MagazinePistolSubMachineGun
       amount: 2
@@ -379,7 +405,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleGestioExpedition
+    - id: WeaponRifleGestio
       amount: 1
     - id: MagazineLightRifleLowCapacity
       amount: 3
@@ -405,7 +431,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleLecterExpedition
+    - id: WeaponRifleLecter
       amount: 1
     - id: MagazineRifle
       amount: 2
@@ -418,7 +444,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleAkExpedition
+    - id: WeaponRifleAk
       amount: 1
     - id: MagazineLightRifle
       amount: 2
@@ -431,7 +457,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleM90GrenadeLauncherExpedition
+    - id: WeaponRifleM90GrenadeLauncher
       amount: 1
     - id: MagazineRifle
       amount: 2
@@ -444,7 +470,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleSVSExpedition
+    - id: WeaponRifleSVS
       amount: 1
     - id: MagazineLightRifleLowCapacity
       amount: 2
@@ -470,7 +496,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleJackdawExpedition
+    - id: WeaponRifleJackdaw
       amount: 1
     - id: MagazineCaselessRifle
       amount: 2
@@ -577,7 +603,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSniperHristovExpedition
+    - id: WeaponSniperHristov
       amount: 1
     - id: MagazineBoxAntiMateriel
       amount: 2
@@ -590,7 +616,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSniperRepeaterExpedition
+    - id: WeaponSniperRepeater
       amount: 1
     - id: MagazineBoxMagnum
       amount: 2
@@ -630,7 +656,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLauncherRocketExpedition
+    - id: WeaponLauncherRocket
       amount: 1
     - id: CartridgeRocket
       amount: 2
@@ -643,7 +669,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLauncherChinaLakeExpedition
+    - id: WeaponLauncherChinaLake
       amount: 1
     - id: GrenadeFrag
       amount: 2
@@ -657,7 +683,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLightMachineGunL6Expedition
+    - id: WeaponLightMachineGunL6
       amount: 1
     - id: MagazineLightRifleBox
       amount: 2
