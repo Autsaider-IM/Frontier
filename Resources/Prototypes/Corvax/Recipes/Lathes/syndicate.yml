@@ -3,7 +3,7 @@
   result: TelecrystalDamaged1
   completetime: 1
   materials:
-    CreditCounterfeit: 1000
+    Credit: 1000
 
 # обменик
 - type: latheRecipe
