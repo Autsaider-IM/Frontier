@@ -28,3 +28,6 @@
     whitelist:
       tags:
         - SSpaceCash
+        - Sheet
+        - RawMaterial
+        - Ingot
