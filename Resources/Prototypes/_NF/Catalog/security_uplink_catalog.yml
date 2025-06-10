@@ -1603,7 +1603,7 @@
   name:  uplink-security-contraband-forensics-M4A1
   description: uplink-security-contraband-forensics-M4A1-desc
   productEntity: WeaponCaseLongM4A1
-  icon: { sprite: /Corvax/Objects/Weapons/Guns/Rifles/m4a1.rsi, state: base }
+  icon: { sprite: Corvax/Objects/Weapons/Guns/Rifles/m4a1.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 20
   categories:
