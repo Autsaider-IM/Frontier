@@ -75,7 +75,7 @@
   description:  Автоматический Дробовик 12 модели поставляется ограниченными партиями для сил дсбф компанией TechnicLogistic, барабанная система подачи боеприпасов позваляет оружию развить чудовищную скорострельность и убойную силу.
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
+    sprite: /Textures/Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -84,7 +84,7 @@
   - type: Item
     size: Large
   - type: Clothing
-    sprite: Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
+    sprite: /Textures/Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
     quickEquip: false
     slots:
     - Back
@@ -125,5 +125,5 @@
   - type: StaticPrice
     price: 500
   - type: ClothingSpeedModifier
-    walkModifier: 0.92
-    sprintModifier: 0.92
+    walkModifier: 0.95
+    sprintModifier: 0.95
