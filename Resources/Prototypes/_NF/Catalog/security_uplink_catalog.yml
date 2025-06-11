@@ -1600,8 +1600,8 @@
 
 - type: listing
   id: UplinkSecurityM4A1
-  name:  uplink-security-contraband-forensics-M4A1
-  description: uplink-security-contraband-forensics-M4A1-desc
+  name:  uplink-security-contraband-forensics-AD12
+  description: uplink-security-contraband-forensics-AD12-desc
   productEntity: WeaponCaseLongM4A1
   icon: { sprite: Corvax/Objects/Weapons/Guns/Rifles/m4a1.rsi, state: icon }
   cost:
@@ -1621,6 +1621,22 @@
     FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityAD12
+  name:  uplink-security-contraband-forensics-M4A1
+  description: uplink-security-contraband-forensics-M4A1-desc
+  productEntity: WeaponCaseLongAD12
+  icon: { sprite: Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 11
+  categories:
+    - UplinkSecurityWeapons
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

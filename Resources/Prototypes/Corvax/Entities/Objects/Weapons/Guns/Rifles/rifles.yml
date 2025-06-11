@@ -64,7 +64,7 @@
     price: 500
 
 - type: entity
-  name: M4A1
+  name: Дакота
   parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponInterstellarRifleM4A1
   description: Винтовка штурмовых подразделений сил ДСБФ использующая боеприпасы калибра .20. Поставлялась силам дсбф компанией TechnicLogistic по специальному заказу, обладает чудовищной огневой мощью, но на вооружение не попала в связи с дороговизной производства.

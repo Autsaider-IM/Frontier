@@ -1,7 +1,7 @@
 - type: entity
   parent: WeaponCaseLong
   id: WeaponCaseLongM4A1
-  name: Ящик M4A1
+  name: Ящик с M4A1
   suffix: Аплинк ДСБФ, M4A1
   components:
   - type: StorageFill
@@ -33,3 +33,18 @@
         amount: 2
       - id: SheetGlass
         amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongAD12
+  name: Ящик с Отбойником
+  suffix: Аплинк ДСБФ, Отбойник
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunAD12
+      amount: 1
+    - id: MagazineShotgun
+      amount: 2
+    - id: BoxLethalshot
+      amount: 1
