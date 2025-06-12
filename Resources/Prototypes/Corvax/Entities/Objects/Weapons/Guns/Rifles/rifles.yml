@@ -142,12 +142,12 @@
   - type: Clothing
     sprite: Corvax/Objects/Weapons/Guns/Rifles/dagger.rsi
   - type: Gun
-    fireRate: 1.5
+    fireRate: 1.3
     shotsPerBurst: 5
     burstCooldown: 1
     projectileSpeed: 32
-    minAngle: 20
-    maxAngle: 25
+    minAngle: 19
+    maxAngle: 27
     selectedMode: Burst
     availableModes:
       - Burst
