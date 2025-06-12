@@ -64,10 +64,9 @@
     price: 500
 
 - type: entity
-  name: Дакота
+  name: Dakota
   parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponInterstellarRifleM4A1
-  description: Винтовка штурмовых подразделений сил ДСБФ использующая боеприпасы калибра .20. Поставлялась силам дсбф компанией TechnicLogistic по специальному заказу, обладает чудовищной огневой мощью, но на вооружение не попала в связи с дороговизной производства.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Rifles/m4a1.rsi
@@ -127,10 +126,9 @@
   - type: Appearance
 
 - type: entity
-  name: Кинжал
+  name: dagger
   parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponRifleDagger
-  description: Штурмовая винтовка стоящая на вооружении компании TechnicLogistic, большая огневая мощь сделали её грозным оружием сил самообороны.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Rifles/dagger.rsi
