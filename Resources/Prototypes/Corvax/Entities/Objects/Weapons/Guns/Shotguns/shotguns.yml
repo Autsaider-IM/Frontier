@@ -72,7 +72,7 @@
   name: Отбойник
   parent: [BaseItem, BaseGunWieldable, BaseC2Contraband] 
   id: WeaponShotgunAD12
-  description:  Автоматический Дробовик 12 модели поставляется ограниченными партиями для сил дсбф компанией TechnicLogistic, барабанная система подачи боеприпасов позваляет оружию развить чудовищную скорострельность и убойную силу.
+  description:  Автоматический Дробовик 12 модели поставляется ограниченными партиями для сил дсбф компанией TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
@@ -132,7 +132,7 @@
   name: Подавитель
   parent: [BaseItem, BaseGunWieldable, BaseC2Contraband] 
   id: WeaponShotgunSuppressor
-  description:  Автоматический Дробовик 16 модели нового поколения TechnicLogistic, барабанная система подачи боеприпасов позваляет оружию развить чудовищную скорострельность и убойную силу.
+  description:  Автоматический Дробовик 16 модели нового поколения TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Shotguns/suppressor.rsi

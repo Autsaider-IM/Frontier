@@ -164,7 +164,7 @@
   id: UplinkSecurityDisabler
   name:  uplink-security-disabler-name
   description: uplink-security-disabler-desc
-  productEntity: WeaponCaseLongWeaponDisabler
+  productEntity: Disabler
   icon: { sprite: Objects/Weapons/Guns/Battery/disabler.rsi, state: base }
   cost:
     FrontierUplinkCoin: 1
@@ -196,7 +196,7 @@
   id: UplinkSecurityEmitter
   name:  uplink-security-emitter-name
   description: uplink-security-emitter-desc
-  productEntity: WeaponCaseLongWeaponEmpEmitter
+  productEntity: WeaponEmpEmitter
   icon: { sprite: _NF/Objects/Weapons/Guns/Projectiles/emp.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 1
