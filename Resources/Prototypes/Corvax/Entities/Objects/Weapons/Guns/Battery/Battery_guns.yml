@@ -85,7 +85,6 @@
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
-      shader: unshaded
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -118,8 +117,8 @@
   id: SniperSign
   damage:
     types:
-      Heat: 50
-      Structural: 100
+      Heat: 42
+      Structural: 80
   muzzleFlash:
     sprite: Corvax/Objects/Weapons/Guns/Projectiles/sign_pr.rsi
     state: muzzle_sign
