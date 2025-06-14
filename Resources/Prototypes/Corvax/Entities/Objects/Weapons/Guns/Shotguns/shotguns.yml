@@ -70,7 +70,7 @@
 
 - type: entity
   name: Отбойник
-  parent: [BaseItem, BaseGunWieldable, BaseC2Contraband] 
+  parent: [BaseItem, BaseGunWieldable, BaseC2Contraband]
   id: WeaponShotgunAD12
   description:  Автоматический Дробовик 12 модели поставляется ограниченными партиями для сил дсбф компанией TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
   components:
@@ -81,6 +81,9 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
+  - type: Icon
+    sprite: Corvax/Objects/Weapons/Guns/Shotguns/ad12.rsi
+    state: icon
   - type: Item
     size: Large
   - type: Clothing
@@ -141,6 +144,9 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
+  - type: Icon
+    sprite: Corvax/Objects/Weapons/Guns/Shotguns/suppressor.rsi
+    state: icon
   - type: Item
     size: Large
   - type: Clothing
