@@ -130,9 +130,9 @@
 
 - type: entity
   name: Подавитель
-  parent: [BaseItem, BaseGunWieldable, BaseC2Contraband] 
+  parent: [BaseItem, BaseGunWieldable, BaseC2Contraband]
   id: WeaponShotgunSuppressor
-  description:  Автоматический Дробовик 16 модели нового поколения TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
+  description: Автоматический Дробовик 16 модели нового поколения TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Shotguns/suppressor.rsi
@@ -150,9 +150,12 @@
     - Back
     - suitStorage
   - type: AmmoCounter
-  - type: GunRequiresWield
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 1.4
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
     soundEmpty:
