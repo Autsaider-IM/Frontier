@@ -1692,3 +1692,24 @@
         - Bailiff
         - SeniorOfficer
         - Sheriff
+
+- type: listing
+  id: UplinkSecurityWeaponPulseCarbineSniper
+  name:  uplink-security-contraband-forensics-CarbineSniper
+  description: uplink-security-contraband-forensics-CarbineSniper-desc
+  productEntity: WeaponCaseLongWeaponPulseCarbineSniper
+  icon: { sprite: Corvax/Objects/Weapons/Guns/Battery/pulse_sniper.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 20
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
