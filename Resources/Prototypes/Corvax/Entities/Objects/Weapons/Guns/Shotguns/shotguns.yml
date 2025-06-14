@@ -152,10 +152,7 @@
   - type: AmmoCounter
   - type: GunRequiresWield
   - type: Gun
-    fireRate: 2.5
-    shotsPerBurst: 1
-    burstCooldown: 1
-    selectedMode: Burst
+    fireRate: 1.4
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
     soundEmpty:
