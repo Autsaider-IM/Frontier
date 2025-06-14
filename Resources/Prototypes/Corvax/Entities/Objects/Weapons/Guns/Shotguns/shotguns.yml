@@ -99,6 +99,8 @@
     shotsPerBurst: 2
     burstCooldown: 1
     selectedMode: Burst
+    availableModes:
+    - Burst
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
     soundEmpty:
