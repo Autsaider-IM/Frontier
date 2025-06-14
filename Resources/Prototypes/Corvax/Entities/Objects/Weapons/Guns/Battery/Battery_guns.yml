@@ -1,6 +1,6 @@
 - type: entity
   name: pulse sniper
-  parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] 
   id: WeaponPulseCarbineSniper
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   name: Owl
-  parent: [ BaseWeaponPowerCellSmall, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: [ BaseWeaponPowerCellSmall, BaseC1Contraband ] 
   id: WeaponLaserOwl
   description: A cheap and widely used laser pistol.
   components:
@@ -74,3 +74,58 @@
     magState: mag
     steps: 5
     zeroVisible: true
+
+- type: entity
+  name: Sign
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] 
+  id: WeaponSniperSign
+  components:
+  - type: Sprite
+    sprite: Corvax/Objects/Weapons/Guns/Battery/sign.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
+  - type: Clothing
+    sprite: Corvax/Objects/Weapons/Guns/Battery/sign.rsi
+  - type: Gun
+    selectedMode: FullAuto
+    fireRate: 0.65
+    availableModes:
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: SniperSign
+    fireCost: 1000
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.25
+    sprintModifier: 0.25
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 3
+    pvsIncrease: 0.3
+
+- type: hitscan
+  id: SniperSign
+  damage:
+    types:
+      Heat: 50
+      Structural: 100
+  muzzleFlash:
+    sprite: Corvax/Objects/Weapons/Guns/Projectiles/sign_pr.rsi
+    state: muzzle_sign
+  travelFlash:
+    sprite: Corvax/Objects/Weapons/Guns/Projectiles/sign_pr.rsi
+    state: sign
+  impactFlash:
+    sprite: Corvax/Objects/Weapons/Guns/Projectiles/sign_pr.rsi
+    state: impact_sign

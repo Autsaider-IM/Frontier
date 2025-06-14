@@ -29,21 +29,21 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifle
+        startingItem: MagazineAntiMateriel
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - MagazineAntiMateriel
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: CartridgeAntiMateriel
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgeAntiMateriel
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -58,3 +58,10 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.88
     sprintModifier: 0.88
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.25
+    sprintModifier: 0.25
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 3
+    pvsIncrease: 0.3
