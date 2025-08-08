@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/08/2025 14:12:46
-  entityCount: 297
+  time: 08/08/2025 15:35:58
+  entityCount: 299
 maps: []
 grids:
 - 2
@@ -817,6 +817,11 @@ entities:
     - type: Transform
       pos: 6.5,14.5
       parent: 2
+  - uid: 277
+    components:
+    - type: Transform
+      pos: 2.5,13.5
+      parent: 2
 - proto: Catwalk
   entities:
   - uid: 104
@@ -1423,6 +1428,19 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 3.5,19.5
       parent: 2
+- proto: GunneryServerLow
+  entities:
+  - uid: 250
+    components:
+    - type: Transform
+      pos: 5.5,13.5
+      parent: 2
+    - type: Battery
+      startingCharge: 36.334053
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: GyroscopeNfsd
   entities:
   - uid: 170
