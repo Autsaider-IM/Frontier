@@ -21,7 +21,6 @@
     newAccessLevels: [Captain, Security, Brig]
   - type: ShipyardListing
     shuttles:
-    - Warrior
     - Templar
     - hammer
 
@@ -47,7 +46,6 @@
     newAccessLevels: [Captain, Security, Brig]
   - type: ShipyardListing
     shuttles:
-    - Warrior
     - Rogue
     - hammer
     - Templar
