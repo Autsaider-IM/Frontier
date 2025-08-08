@@ -4,7 +4,7 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/08/2025 05:21:18
+  time: 08/08/2025 11:25:10
   entityCount: 897
 maps: []
 grids:
@@ -5882,14 +5882,14 @@ entities:
   - uid: 518
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 3.5,-8.5
+      rot: 1.5707963267948966 rad
+      pos: 5.5,-10.5
       parent: 1
   - uid: 668
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-10.5
+      rot: 1.5707963267948966 rad
+      pos: 3.5,-8.5
       parent: 1
 - proto: WindoorSecure
   entities:

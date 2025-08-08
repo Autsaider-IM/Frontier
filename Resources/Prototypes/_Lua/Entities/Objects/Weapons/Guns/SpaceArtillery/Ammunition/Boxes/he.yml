@@ -28,7 +28,7 @@
         tags:
           - Cartridge20mm
       proto: Cartridge20mm
-      capacity: 500
+      capacity: 200
 
 - type: entity
   id: MagazineBox53mm
@@ -56,7 +56,7 @@
         tags:
           - Cartridge53mm
       proto: Cartridge53mm
-      capacity: 500
+      capacity: 100
 
 - type: entity
   id: MagazineBox80mm
@@ -84,7 +84,7 @@
         tags:
           - Cartridge80mm
       proto: Cartridge80mm
-      capacity: 250
+      capacity: 50
 
 - type: entity
   id: MagazineBox105mmHE

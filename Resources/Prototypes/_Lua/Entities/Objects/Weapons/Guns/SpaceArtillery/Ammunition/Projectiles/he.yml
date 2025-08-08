@@ -115,9 +115,9 @@
     - type: ExplodeOnTrigger
     - type: Explosive
       explosionType: Default
-      totalIntensity: 600.0
+      totalIntensity: 250.0
       intensitySlope: 15
-      maxIntensity: 250
+      maxIntensity: 100
       maxTileBreak: 1
     - type: RadarBlip
       scale: 0.75
