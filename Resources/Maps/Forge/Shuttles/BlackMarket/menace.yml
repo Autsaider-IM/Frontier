@@ -1711,7 +1711,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,4.5
       parent: 1
-- proto: WeaponNavalCannon53mmUnanchorEmpty
+- proto: WeaponNavalCannon53mm
   entities:
   - uid: 101
     components:

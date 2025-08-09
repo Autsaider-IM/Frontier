@@ -1646,7 +1646,7 @@ entities:
     - type: Transform
       pos: 0.5,-5.5
       parent: 201
-- proto: WeaponNavalCannon53mmUnanchorEmpty
+- proto: WeaponNavalCannon53mm
   entities:
   - uid: 19
     components:
