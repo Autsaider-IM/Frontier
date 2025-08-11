@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/11/2025 04:12:08
-  entityCount: 1586
+  time: 08/11/2025 07:51:55
+  entityCount: 1585
 maps: []
 grids:
 - 1
@@ -8299,13 +8299,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 24.61123,32.4963
-      parent: 1
-- proto: ShieldGeneratorSmall
-  entities:
-  - uid: 1586
-    components:
-    - type: Transform
-      pos: 23.5,6.5
       parent: 1
 - proto: ShuttersWindow
   entities:
