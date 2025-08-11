@@ -1330,7 +1330,7 @@ entities:
           occludes: True
           ents:
           - 140
-- proto: ComputerIFFSyndicateCircuitboard
+- proto: ComputerIFFCircuitboard
   entities:
   - uid: 140
     components:
