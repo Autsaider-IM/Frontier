@@ -13,10 +13,10 @@
   parent: BaseVessel
   name: SBI Корвет
   description: Среднегабаритный шаттл наёмников, созданный для выполнения опасных целей.
-  price: 51000
+  price: 75900
   category: Small
   group: Mercenary
-  shuttlePath: /Maps/Forge/Shuttles/Mercenary/Corvet.yml
+  shuttlePath: /Maps/Forge/Shuttles/Mercenary/corvet.yml
   addComponents:
   - type: MercenaryBountyDatabase
     bounties: []
@@ -25,7 +25,7 @@
 - type: gameMap
   id: Corvet
   mapName: 'SBI Корвет'
-  mapPath: /Maps/Forge/Shuttles/Mercenary/Corvet.yml
+  mapPath: /Maps/Forge/Shuttles/Mercenary/corvet.yml
   minPlayers: 0
   stations:
     Corvet:

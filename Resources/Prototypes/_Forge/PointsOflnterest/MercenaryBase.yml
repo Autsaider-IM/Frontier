@@ -13,21 +13,21 @@
 - type: pointOfInterest
   id: MercenaryBase
   parent: BasePOI
-  name: 'База наёмников'
+  name: 'Аванпост наёмников Рубеж'
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
   gridPath: /Maps/Forge/POI/MercenaryBase.yml
   addComponents:
   - type: IFF
-    color: "#a68614"
+    color: "#5beb34"
   - type: StationTransit
   - type: ProtectedGrid
     noGridCollision: True
 
 - type: gameMap
   id: MercenaryBase
-  mapName: 'База наёмников'
+  mapName: 'Аванпост наёмников Рубеж'
   mapPath: /Maps/Forge/POI/MercenaryBase.yml
   minPlayers: 0
   stations:
@@ -35,7 +35,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'База наёмников'
+          mapNameTemplate: 'Аванпост наёмников Рубеж'
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Objects/Devices/pda.rsi/pda-mercenary.png
           stationSubtext: 'frontier-lobby-mercenary-subtext'

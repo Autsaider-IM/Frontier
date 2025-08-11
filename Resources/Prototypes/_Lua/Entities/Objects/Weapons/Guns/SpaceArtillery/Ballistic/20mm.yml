@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: entity
-  parent: BaseWeaponNavalBallisctic
+  parent: [ BaseWeaponNavalBallisctic, BaseC1Contraband ]
   id: WeaponNavalCannon20mmBase
   name: Пулемёт "20мм"
   description: Лёгий пулемёт, использует снаряды 20мм.
@@ -127,7 +127,7 @@
   description: Упакованный Лёгкий Пулемёт (.20мм)
   components:
   - type: Flatpack
-    entity: WeaponNavalCannon20mmBase
+    entity: WeaponNavalCannon20mmUnanchor
   - type: StaticPrice
     price: 250
   - type: Sprite

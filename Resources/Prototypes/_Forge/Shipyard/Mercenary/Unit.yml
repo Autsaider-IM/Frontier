@@ -13,10 +13,10 @@
   parent: BaseVessel
   name: SBI Юнит
   description: Малогабаритный шаттл для наёмников, рекомендуемый состав экипажа 1 человека.
-  price: 31000
+  price: 53800
   category: Small
   group: Mercenary
-  shuttlePath: /Maps/Forge/Shuttles/Mercenary/Unit.yml
+  shuttlePath: /Maps/Forge/Shuttles/Mercenary/unit.yml
   addComponents:
   - type: MercenaryBountyDatabase
     bounties: []
@@ -24,7 +24,7 @@
 - type: gameMap
   id: Unit
   mapName: 'SBI Юнит'
-  mapPath: /Maps/Forge/Shuttles/Mercenary/Unit.yml
+  mapPath: /Maps/Forge/Shuttles/Mercenary/unit.yml
   minPlayers: 0
   stations:
     Unit:
