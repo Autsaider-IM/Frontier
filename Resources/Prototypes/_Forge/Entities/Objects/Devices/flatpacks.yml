@@ -62,12 +62,12 @@
 
 - type: entity
   parent: BaseNFFlatpack
-  id: ShuttleGunSunsetFlatpack
+  id: ShuttleGunM25Flatpack
   name: упакованная шахтерская добывающая установка M25
   description: Упакованная шахтерская добывающая установка M25.
   components:
   - type: Flatpack
-    entity: ShuttleGunSunset
+    entity: WeaponNavalCannonM25
   - type: Sprite
     layers:
     - state: power_console_ame
