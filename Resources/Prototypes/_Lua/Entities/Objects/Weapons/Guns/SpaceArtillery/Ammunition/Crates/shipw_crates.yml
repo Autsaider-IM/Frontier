@@ -175,6 +175,8 @@
     contents:
       - id: WeaponNavalCannon20mmBaseFlatpack
         amount: 1
+  - type: StaticPrice
+    price: 4600
 
 - type: entity
   id: CrateArmoryWeaponNavalCannon53mmBase
