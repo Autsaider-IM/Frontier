@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Grid
+  category: Map
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/12/2025 08:13:49
-  entityCount: 3389
-maps: []
+  time: 08/12/2025 09:39:48
+  entityCount: 3390
+maps:
+- 3390
 grids:
 - 1
-orphans:
-- 1
+orphans: []
 nullspace: []
 tilemap:
   0: Space
@@ -36,7 +36,7 @@ entities:
     components:
     - type: MetaData
     - type: Transform
-      parent: invalid
+      parent: 3390
     - type: MapGrid
       chunks:
         0,0:
@@ -3157,6 +3157,16 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
+  - uid: 3390
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AirAlarm
   entities:
   - uid: 2983
