@@ -100,6 +100,28 @@
         amount: 15
 
 - type: entity
+  id: CrateArmoryWeaponNavalCannon140mmPF
+  parent: CrateShipWeaponBase
+  name: ящик бесконтактных картриджей тяжёлого миномёта (.140мм)
+  description: Содержит 15 картриджей бесконтактных снарядов для тяжёлого миномёта (.140мм)
+  components:
+  - type: StorageFill
+    contents:
+      - id: Cartridge140mmPF
+        amount: 15
+
+- type: entity
+  id: CrateArmoryWeaponNavalCannon140mmHE
+  parent: CrateShipWeaponBase
+  name: ящик фугасных картриджей тяжёлого миномёта (.140мм)
+  description: Содержит 15 картриджей фугасных снарядов для тяжёлого миномёта (.140мм)
+  components:
+  - type: StorageFill
+    contents:
+      - id: Cartridge140mm
+        amount: 15
+
+- type: entity
   id: CrateArmoryWeaponImpulseLaser
   parent: CrateShipWeaponBase
   name: ящик с упакованным импульсным лазером
