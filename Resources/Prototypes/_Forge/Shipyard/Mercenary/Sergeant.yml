@@ -13,10 +13,9 @@
   parent: BaseVessel
   name: SBI Гильза
   description: Малогабаритный шаттл наёмников для быстрого перемещения в космическом пространстве
-  price: 16000
+  price: 20400
   category: Small
-  group: Mercenary
-  shuttlePath: /Maps/Forge/Shuttles/Mercenary/Sergeant.yml
+  shuttlePath: /Maps/Forge/Shuttles/Mercenary/sergeant.yml
   addComponents:
   - type: MercenaryBountyDatabase
     bounties: []
@@ -24,7 +23,7 @@
 - type: gameMap
   id: Sergeant
   mapName: 'SBI Гильза'
-  mapPath: /Maps/Forge/Shuttles/Mercenary/Sergeant.yml
+  mapPath: /Maps/Forge/Shuttles/Mercenary/sergeant.yml
   minPlayers: 0
   stations:
     Sergeant:

@@ -29,6 +29,8 @@
           - Cartridge20mm
       proto: Cartridge20mmAP
       capacity: 200
+    - type: StaticPrice
+      price: 500
 
 - type: entity
   id: MagazineBox53mmAP
