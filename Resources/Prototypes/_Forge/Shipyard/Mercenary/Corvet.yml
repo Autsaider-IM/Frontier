@@ -16,7 +16,7 @@
   price: 75900
   category: Small
   group: Mercenary
-  shuttlePath: /Maps/Forge/Shuttles/Mercenary/corvet.yml
+  shuttlePath: /Maps/Forge/Shuttles/Mercenary/Corvet.yml
   addComponents:
   - type: MercenaryBountyDatabase
     bounties: []
@@ -25,7 +25,7 @@
 - type: gameMap
   id: Corvet
   mapName: 'SBI Корвет'
-  mapPath: /Maps/Forge/Shuttles/Mercenary/corvet.yml
+  mapPath: /Maps/Forge/Shuttles/Mercenary/Corvet.yml
   minPlayers: 0
   stations:
     Corvet:
