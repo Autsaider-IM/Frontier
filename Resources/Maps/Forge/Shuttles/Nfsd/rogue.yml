@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/14/2025 01:29:32
-  entityCount: 129
+  time: 08/19/2025 04:47:19
+  entityCount: 128
 maps: []
 grids:
 - 1
@@ -552,14 +552,6 @@ entities:
 - proto: ComputerGunneryConsole
   entities:
   - uid: 68
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,2.5
-      parent: 1
-- proto: ComputerIFF
-  entities:
-  - uid: 69
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
