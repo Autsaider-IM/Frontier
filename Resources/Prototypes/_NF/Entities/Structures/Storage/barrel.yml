@@ -137,6 +137,15 @@
   - type: Sprite
     sprite: _NF/Objects/Storage/Barrels/black.rsi
 
+- type: entity #CorvaxFrontier
+  id: MetalBarrelBlackST
+  parent: BaseBarrel
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Storage/Barrels/black.rsi
+  - type: StaticPrice
+    price: 5
+
 - type: entity
   id: ChemicalBarrelExplosiveEmpty
   parent: MetalBarrelRed
@@ -732,6 +741,24 @@
     containers:
       paper_label:
       - LabelOil
+
+- type: entity # CorvaxFrontier
+  parent: MetalBarrelBlack
+  id: ChemicalBarrelOilST
+  suffix: Oil
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents:
+          - ReagentId: Oil
+            Quantity: 1000
+  - type: ContainerFill
+    containers:
+      paper_label:
+      - LabelOil
+  - type: StaticPrice
+    price: 5
 
 - type: entity
   id: LabelOil

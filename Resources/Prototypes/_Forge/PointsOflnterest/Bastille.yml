@@ -22,7 +22,7 @@
   - type: IFF
     color: "#ff8c00"
   - type: StationTransit
-  - type: ProtectedGrid
+  - type: ProtectedGrid 
     preventArtifactTriggers: True
     preventExplosions: False
     preventEmpEvents: True
