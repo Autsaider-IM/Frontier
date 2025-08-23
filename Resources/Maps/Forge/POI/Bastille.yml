@@ -50227,21 +50227,6 @@ entities:
     - type: Transform
       pos: 9.5,-47.5
       parent: 1
-  - uid: 6457
-    components:
-    - type: Transform
-      pos: 6.5,-48.5
-      parent: 1
-  - uid: 6458
-    components:
-    - type: Transform
-      pos: 8.5,-47.5
-      parent: 1
-  - uid: 6459
-    components:
-    - type: Transform
-      pos: 7.5,-49.5
-      parent: 1
 - proto: SpawnPointLatejoin
   entities:
   - uid: 6470
