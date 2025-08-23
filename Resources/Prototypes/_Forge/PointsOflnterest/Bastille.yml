@@ -17,7 +17,7 @@
   minimumDistance: 2900
   maximumDistance: 3500
   spawnGroup: Required
-  gridPath: /Maps/Forge/POI/Bastille.yml
+  gridPath: /Maps/Forge/POI/bastille.yml
   addComponents:
   - type: IFF
     color: "#ff8c00"
@@ -35,7 +35,7 @@
 - type: gameMap
   id: BastilleOutpost
   mapName: 'Транспортное депо Бастилия'
-  mapPath: /Maps/Forge/POI/Bastille.yml
+  mapPath: /Maps/Forge/POI/bastille.yml
   minPlayers: 0
   stations:
     BastilleOutpost:
