@@ -183,8 +183,6 @@
     - NfsdAmmoStatic
     - ReportingStatic # DeltaV
     - CorvaxAmmoStatic #Corvax-Frontier
-    - NFMercenaryMagazineStatic
-    - NFMercenaryStorageStatic
     - NfsdToolsStatic
     - NfsdTargetsStatic
     - NfsdBoardsStatic
