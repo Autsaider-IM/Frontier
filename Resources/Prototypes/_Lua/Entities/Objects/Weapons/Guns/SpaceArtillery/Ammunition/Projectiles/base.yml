@@ -27,7 +27,7 @@
       requireNoGrid: true
       shape: triangle
     - type: TimedDespawn
-      lifetime: 20 
+      lifetime: 20
     - type: ShipWeaponProjectile
 
 - type: entity
