@@ -2,6 +2,17 @@
   parent: [ ClothingBeltPilot, NFStorageFillBeltPilot ]
   id: ClothingBeltPilotFilled
   suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: CrowbarRed
+      - id: Wrench
+      - id: Screwdriver
+      - id: Multitool
+      - id: HandHeldMassScanner
+      - id: RemoteSignaller
+      - id: NFInflatableWallStack5
+      - id: NFInflatableDoorStack1
 
 - type: entity
   id: ClothingBeltNfsdFilled
