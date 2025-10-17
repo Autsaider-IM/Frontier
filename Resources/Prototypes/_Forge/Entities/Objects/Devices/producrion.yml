@@ -28,7 +28,7 @@
   id: GyroscopeSyndicateMachineCircuitboard
   parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
   name: гироскоп Синдиката (машинная плата)
-  components:   
+  components:
    - type: Sprite
      state: security
    - type: MachineBoard
@@ -57,3 +57,19 @@
       Steel: 10
       CableHV: 5
       Uranium: 2
+
+- type: entity
+  id: TechFabInterdyneMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: техфаб Interdyne (машинная плата)
+  description: Плата для создания техфаба компании Interdyne Pharmaceutics.
+  components:
+    - type: Sprite
+      state: secmodschematic
+    - type: MachineBoard
+      prototype: TechFabInterdyne
+      requirements:
+        Manipulator: 2
+      stackRequirements:
+        Glass: 5
+        Cable: 2
