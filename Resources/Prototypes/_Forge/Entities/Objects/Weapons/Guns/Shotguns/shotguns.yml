@@ -1,30 +1,30 @@
-- type: entity
-  parent: [ NFBaseWeaponFrameShotgun, BaseC1Contraband ]
-  id: WeaponShotgunKS23
-  name: Shotgun KS23
-  components:
-  - type: Sprite
-    sprite: Forge/Objects/Weapons/Guns/Shotguns/ks23.rsi
-    scale: 0.8, 0.8
-    state: icon
-  - type: Item
-    size: Normal
-    shape:
-    - 0,0,3,0
-  - type: Clothing
-    sprite: Forge/Objects/Weapons/Guns/Shotguns/ks23.rsi
-  - type: Gun
-    fireRate: 1
-  - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - ShellKS23
-    capacity: 4
-    proto: ShellKS23Base
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-        ents: []
+# - type: entity
+#   parent: [ NFBaseWeaponFrameShotgun, BaseC1Contraband ]
+#   id: WeaponShotgunKS23
+#   name: Shotgun KS23
+#   components:
+#   - type: Sprite
+#     sprite: Forge/Objects/Weapons/Guns/Shotguns/ks23.rsi
+#     scale: 0.8, 0.8
+#     state: icon
+#   - type: Item
+#     size: Normal
+#     shape:
+#     - 0,0,3,0
+#   - type: Clothing
+#     sprite: Forge/Objects/Weapons/Guns/Shotguns/ks23.rsi
+#   - type: Gun
+#     fireRate: 1
+#   - type: BallisticAmmoProvider
+#     whitelist:
+#       tags:
+#       - ShellKS23
+#     capacity: 4
+#     proto: ShellKS23Base
+#   - type: ContainerContainer
+#     containers:
+#       ballistic-ammo: !type:Container
+#         ents: []
 
 - type: entity
   name: KD12
@@ -147,10 +147,10 @@
     sprintModifier: 0.95
 
 - type: entity
-  name: Подавитель
+  name: Suppressor
   parent: [BaseItem, NFBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
   id: WeaponShotgunSuppressor
-  description: Автоматический Дробовик 16 модели нового поколения TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
+  description: The TechnicLogistic Model 16 Automatic Shotgun is a new generation model with a drum-type ammunition feeding system that allows the weapon to develop a monstrous rate of fire and lethal force.
   components:
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Shotguns/suppressor.rsi
