@@ -766,7 +766,7 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: BecomesStation
-      id: boyaryshnik
+      id: boyaryshnik2
 - proto: AirAlarm
   entities:
   - uid: 504
