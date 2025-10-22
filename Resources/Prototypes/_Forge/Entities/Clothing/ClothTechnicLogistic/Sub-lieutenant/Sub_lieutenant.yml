@@ -98,7 +98,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/jumpsuit.rsi
 
 - type: entity
-  parent: [ClothingMaskGas, BaseC2ContrabandUnredeemable] 
+  parent: [ClothingMaskGas, BaseC2ContrabandUnredeemable]
   id: ClothingMaskGasTL
   name: gas mask TL
   description: A standard issue TechnicLogistic gas mask.
@@ -151,7 +151,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/helmet.rsi
 
 - type: entity
-  parent: [ClothingHeadsetAlt, BaseC2ContrabandUnredeemable ] 
+  parent: [ClothingHeadsetAlt, BaseC2ContrabandUnredeemable ]
   id: ClothingHeadsetAltTL
   name: Headset TechnicLogistic
   description: TechnicLogistic's modular military headset holds up to five encryption keys.
@@ -166,7 +166,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/headset.rsi
 
 - type: entity
-  parent: [ClothingBackpackDuffel, BaseC2ContrabandUnredeemable ] 
+  parent: [ClothingBackpackDuffel, BaseC2ContrabandUnredeemable ]
   id: ClothingBackpackDuffelTL
   name:  Back TechnicLogistic
   description: A large duffel bag for holding any army goods.

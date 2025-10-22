@@ -12,7 +12,7 @@
 
 # - type: pointOfInterest
 #   id: ShipyardTL
-#   name: Заброшенная Верфь TechnicLogistic 
+#   name: Заброшенная Верфь TechnicLogistic
 #   minimumDistance: 2000
 #   maximumDistance: 3000
 #   gridPath: /Maps/Forge/POI/ShipyardMap.yml
@@ -24,7 +24,7 @@
 
 # - type: gameMap
 #   id: ShipyardTL
-#   mapName: Заброшенная Верфь TechnicLogistic 
+#   mapName: Заброшенная Верфь TechnicLogistic
 #   mapPath: /Maps/Forge/POI/ShipyardMap.yml
 #   minPlayers: 0
 #   stations:
