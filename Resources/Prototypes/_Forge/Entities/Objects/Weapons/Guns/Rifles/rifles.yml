@@ -64,6 +64,9 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
 
 - type: entity
   name: Dakota
@@ -136,6 +139,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
 
 - type: entity
   name: dagger
@@ -214,6 +220,9 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
 
 - type: entity
   name: Cascade
@@ -292,6 +301,9 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
+  - type: NFWeaponDetails
+    class: weapon-details-class-rifle
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
 
 - type: entity
   name: Union-M1
@@ -362,6 +374,9 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.90
     sprintModifier: 0.90
+  - type: NFWeaponDetails
+    class: weapon-details-class-rifle
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
 
 - type: entity
   name: Рет-Cог

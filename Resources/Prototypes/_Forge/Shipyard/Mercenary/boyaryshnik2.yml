@@ -18,12 +18,12 @@
   price: 72850
   category: Medium
   group: Mercenary
-  shuttlePath: /Maps/Forge/Shuttles/Mercenary/boyaryshnik.yml
+  shuttlePath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
 
 - type: gameMap
   id: boyaryshnik
   mapName: 'TL Боярышник MK2'
-  mapPath: /Maps/Forge/Shuttles/Mercenary/boyaryshnik.yml
+  mapPath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
   minPlayers: 0
   stations:
     boyaryshnik:
