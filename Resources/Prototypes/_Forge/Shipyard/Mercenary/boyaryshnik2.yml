@@ -15,14 +15,14 @@
   parent: BaseVessel
   name: TL Боярышник MK2
   description: Среднегабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-5 человек.
-  price: 72850
+  price: 160400
   category: Medium
   group: Mercenary
   shuttlePath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
 
 - type: gameMap
   id: boyaryshnik
-  mapName: 'TL Боярышник MK2'
+  mapName: 'Боярышник MK2'
   mapPath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
   minPlayers: 0
   stations:

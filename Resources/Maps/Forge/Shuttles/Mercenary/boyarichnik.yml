@@ -4,8 +4,8 @@ meta:
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/13/2025 12:27:55
-  entityCount: 1139
+  time: 10/22/2025 12:23:07
+  entityCount: 1189
 maps: []
 grids:
 - 1
@@ -767,6 +767,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: boyaryshnik2
+    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 504
@@ -1376,6 +1377,253 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 7.5,-6.5
+      parent: 1
+- proto: AtmosFixBlockerMarker
+  entities:
+  - uid: 1140
+    components:
+    - type: Transform
+      pos: -10.5,-14.5
+      parent: 1
+  - uid: 1142
+    components:
+    - type: Transform
+      pos: -6.5,-24.5
+      parent: 1
+  - uid: 1143
+    components:
+    - type: Transform
+      pos: -7.5,-24.5
+      parent: 1
+  - uid: 1144
+    components:
+    - type: Transform
+      pos: -8.5,-24.5
+      parent: 1
+  - uid: 1145
+    components:
+    - type: Transform
+      pos: -9.5,-24.5
+      parent: 1
+  - uid: 1146
+    components:
+    - type: Transform
+      pos: -10.5,-24.5
+      parent: 1
+  - uid: 1147
+    components:
+    - type: Transform
+      pos: -5.5,-23.5
+      parent: 1
+  - uid: 1148
+    components:
+    - type: Transform
+      pos: -4.5,-23.5
+      parent: 1
+  - uid: 1149
+    components:
+    - type: Transform
+      pos: 1.5,-23.5
+      parent: 1
+  - uid: 1150
+    components:
+    - type: Transform
+      pos: 2.5,-23.5
+      parent: 1
+  - uid: 1151
+    components:
+    - type: Transform
+      pos: 3.5,-24.5
+      parent: 1
+  - uid: 1152
+    components:
+    - type: Transform
+      pos: 4.5,-24.5
+      parent: 1
+  - uid: 1153
+    components:
+    - type: Transform
+      pos: 5.5,-24.5
+      parent: 1
+  - uid: 1154
+    components:
+    - type: Transform
+      pos: 6.5,-24.5
+      parent: 1
+  - uid: 1155
+    components:
+    - type: Transform
+      pos: 7.5,-24.5
+      parent: 1
+  - uid: 1156
+    components:
+    - type: Transform
+      pos: 7.5,-14.5
+      parent: 1
+  - uid: 1157
+    components:
+    - type: Transform
+      pos: 7.5,-12.5
+      parent: 1
+  - uid: 1158
+    components:
+    - type: Transform
+      pos: 5.5,-12.5
+      parent: 1
+  - uid: 1159
+    components:
+    - type: Transform
+      pos: 5.5,-11.5
+      parent: 1
+  - uid: 1160
+    components:
+    - type: Transform
+      pos: 5.5,-10.5
+      parent: 1
+  - uid: 1161
+    components:
+    - type: Transform
+      pos: 6.5,-12.5
+      parent: 1
+  - uid: 1162
+    components:
+    - type: Transform
+      pos: 6.5,-11.5
+      parent: 1
+  - uid: 1163
+    components:
+    - type: Transform
+      pos: 6.5,-10.5
+      parent: 1
+  - uid: 1164
+    components:
+    - type: Transform
+      pos: 6.5,-9.5
+      parent: 1
+  - uid: 1165
+    components:
+    - type: Transform
+      pos: 7.5,-10.5
+      parent: 1
+  - uid: 1166
+    components:
+    - type: Transform
+      pos: 4.5,-9.5
+      parent: 1
+  - uid: 1167
+    components:
+    - type: Transform
+      pos: -10.5,-12.5
+      parent: 1
+  - uid: 1168
+    components:
+    - type: Transform
+      pos: -10.5,-10.5
+      parent: 1
+  - uid: 1169
+    components:
+    - type: Transform
+      pos: -9.5,-12.5
+      parent: 1
+  - uid: 1170
+    components:
+    - type: Transform
+      pos: -9.5,-11.5
+      parent: 1
+  - uid: 1171
+    components:
+    - type: Transform
+      pos: -9.5,-10.5
+      parent: 1
+  - uid: 1172
+    components:
+    - type: Transform
+      pos: -8.5,-12.5
+      parent: 1
+  - uid: 1173
+    components:
+    - type: Transform
+      pos: -8.5,-11.5
+      parent: 1
+  - uid: 1174
+    components:
+    - type: Transform
+      pos: -8.5,-10.5
+      parent: 1
+  - uid: 1175
+    components:
+    - type: Transform
+      pos: -9.5,-9.5
+      parent: 1
+  - uid: 1176
+    components:
+    - type: Transform
+      pos: -7.5,-9.5
+      parent: 1
+  - uid: 1177
+    components:
+    - type: Transform
+      pos: -7.5,-10.5
+      parent: 1
+  - uid: 1178
+    components:
+    - type: Transform
+      pos: 4.5,-10.5
+      parent: 1
+  - uid: 1179
+    components:
+    - type: Transform
+      pos: -9.5,-1.5
+      parent: 1
+  - uid: 1180
+    components:
+    - type: Transform
+      pos: -8.5,-1.5
+      parent: 1
+  - uid: 1181
+    components:
+    - type: Transform
+      pos: -8.5,-0.5
+      parent: 1
+  - uid: 1182
+    components:
+    - type: Transform
+      pos: -8.5,0.5
+      parent: 1
+  - uid: 1183
+    components:
+    - type: Transform
+      pos: -0.5,2.5
+      parent: 1
+  - uid: 1184
+    components:
+    - type: Transform
+      pos: -1.5,1.5
+      parent: 1
+  - uid: 1185
+    components:
+    - type: Transform
+      pos: -2.5,2.5
+      parent: 1
+  - uid: 1186
+    components:
+    - type: Transform
+      pos: 5.5,0.5
+      parent: 1
+  - uid: 1187
+    components:
+    - type: Transform
+      pos: 5.5,-0.5
+      parent: 1
+  - uid: 1188
+    components:
+    - type: Transform
+      pos: 5.5,-1.5
+      parent: 1
+  - uid: 1189
+    components:
+    - type: Transform
+      pos: 6.5,-1.5
       parent: 1
 - proto: Bed
   entities:
@@ -5567,6 +5815,17 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 4.5,2.5
       parent: 1
+- proto: GunneryServerLow
+  entities:
+  - uid: 1141
+    components:
+    - type: Transform
+      pos: -3.5,-0.5
+      parent: 1
+    - type: Battery
+      startingCharge: 0
+    - type: ApcPowerReceiver
+      powerLoad: 5
 - proto: GunSafe
   entities:
   - uid: 1039
