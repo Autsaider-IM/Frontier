@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadBase, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingHeadBase, BaseC2ContrabandUnredeemable]
   id: ClothingHeadHatBeretTL
   name: Sub-lieutenant beret
   description: Takes the officer rank of sub-lieutenants of the Self-Defense Forces TechnicLogistic.
@@ -10,7 +10,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/beret.rsi
 
 - type: entity
-  parent: [ClothingShoesMilitaryBase, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingShoesMilitaryBase, BaseC2ContrabandUnredeemable]
   id: ClothingShoesBootsCombatTL
   name: boots TL
   description: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
@@ -21,7 +21,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/boots.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingOuterStorageBase, BaseC2ContrabandUnredeemable]
   id: ClothingOuterCoatLongCoatTL
   name: coat TL
   description: coat TL
@@ -32,7 +32,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/coat.rsi
 
 - type: entity
-  parent: [ClothingEyesGlassesSecurity, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingEyesGlassesSecurity, BaseC2ContrabandUnredeemable]
   id: ClothingEyesGlassesTL
   name: glasses TL 
   description: There is an incomprehensible engraving on the glasses; all I can make out is the word "Nian"
@@ -63,7 +63,7 @@
     isEquipment: true
 
 - type: entity
-  parent: [ClothingHandsGlovesSyntheticBase, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingHandsGlovesSyntheticBase, BaseC2ContrabandUnredeemable]
   id: ClothingHandsGlovesCombatTL
   name: TechnicLogistic Combat Gloves
   description: A pair of gloves made from the finest reinforced materials.
@@ -87,7 +87,7 @@
     mustBeEquippedToUse: true
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable]
   id: ClothingUniformJumpsuitTL
   name: uniform TL
   description: Advanced armored jumpsuit used by special forces in special operations.
@@ -118,7 +118,7 @@
         Heat: 0.94
 
 - type: entity
-  parent: [NFClothingBeltStorageBase, BaseC2ContrabandUnredeemable ]
+  parent: [NFClothingBeltStorageBase, BaseC2ContrabandUnredeemable]
   id: ClothingBeltTL
   name: РПС TechnicLogistic
   description: Unloading of self-defense forces fighters TechnicLogistic.
@@ -140,7 +140,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/vest.rsi
     equippedState: equipped-OUTHERCLOTHING
 - type: entity
-  parent: [BaseC2ContrabandUnredeemable, ClothingHeadHelmetBasic ]
+  parent: [BaseC2ContrabandUnredeemable, ClothingHeadHelmetBasic]
   id: ClothingHeadHelmetTL
   name: Forces TechnicLogistic
   description: TechnicLogistic Self-Defense Forces helmet.
@@ -151,7 +151,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/helmet.rsi
 
 - type: entity
-  parent: [ClothingHeadsetAlt, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingHeadsetAlt, BaseC2ContrabandUnredeemable]
   id: ClothingHeadsetAltTL
   name: Headset TechnicLogistic
   description: TechnicLogistic's modular military headset holds up to five encryption keys.
@@ -166,7 +166,7 @@
     sprite: Forge/Clothing/ClothTechnicLogistic/Sub-lieutenant/headset.rsi
 
 - type: entity
-  parent: [ClothingBackpackDuffel, BaseC2ContrabandUnredeemable ]
+  parent: [ClothingBackpackDuffel, BaseC2ContrabandUnredeemable]
   id: ClothingBackpackDuffelTL
   name:  Back TechnicLogistic
   description: A large duffel bag for holding any army goods.
