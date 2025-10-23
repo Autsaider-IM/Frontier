@@ -308,7 +308,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseShort
+  parent: WeaponCaseLong
   id: WeaponCaseLongWeaponPulse20
   name: Кейс с Импульсным ФН-200
   suffix: Аплинк ДСБФ, Импульсный пистолет
