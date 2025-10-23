@@ -2,7 +2,7 @@
   name: Импульсный ФН-200
   parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen ]
   id: pulse20
-  description: Ученные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер. 
+  description: Ученные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер.
   components:
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Battery/pulse20.rsi
