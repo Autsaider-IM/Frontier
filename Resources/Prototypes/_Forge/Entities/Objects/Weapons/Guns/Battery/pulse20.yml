@@ -47,7 +47,6 @@
     state: impact_blue
 
 - type: hitscan
-  parent: Pulse
   id: SmgPulseSniper
   damage:
     types:

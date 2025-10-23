@@ -25,8 +25,8 @@
       - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
-    fireCost: 1000
   - type: Battery
+    fireCost: 1000
     maxCharge: 7000
     startingCharge: 7000
   - type: SpeedModifiedOnWield
