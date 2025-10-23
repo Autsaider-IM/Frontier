@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Map
+  category: Grid
   engineVersion: 262.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/20/2025 10:12:13
-  entityCount: 2236
-maps:
-- 2236
+  time: 10/20/2025 10:09:15
+  entityCount: 2235
+maps: []
 grids:
 - 1
-orphans: []
+orphans:
+- 1
 nullspace: []
 tilemap:
   0: Space
@@ -40,7 +40,7 @@ entities:
       name: grid
     - type: Transform
       pos: -0.51562506,-0.51562494
-      parent: 2236
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -1458,16 +1458,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: ShipyardTL
-  - uid: 2236
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: GridTree
-    - type: Broadphase
-    - type: OccluderTree
 - proto: AdvancedCapacitorStockPart
   entities:
   - uid: 912
@@ -1567,7 +1557,7 @@ entities:
       pos: 27.5,21.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -3512.9172
+      secondsUntilStateChange: -3488.2434
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1579,7 +1569,7 @@ entities:
       pos: 28.5,21.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -3512.6172
+      secondsUntilStateChange: -3487.9434
       state: Opening
     - type: DeviceLinkSource
       lastSignals:

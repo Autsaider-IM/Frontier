@@ -26,7 +26,6 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: Battery
-    fireCost: 1000
     maxCharge: 7000
     startingCharge: 7000
   - type: SpeedModifiedOnWield
@@ -34,6 +33,7 @@
     sprintModifier: 0.25
   - type: HitscanBatteryAmmoProvider
     proto: SmgPulse
+    fireCost: 1000
 
 - type: hitscan
   id: PulseSniper

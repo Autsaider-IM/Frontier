@@ -28,7 +28,7 @@
   - type: Battery
     maxCharge: 2500
     startingCharge: 2500
-    
+
 - type: hitscan
   id: SmgPulse
   damage:
