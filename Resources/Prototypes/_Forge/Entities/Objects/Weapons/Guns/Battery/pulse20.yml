@@ -1,6 +1,6 @@
 - type: entity
   name: Импульсный ФН-200
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen ]
+  parent: [BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen]
   id: pulse20
   description: Ученные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер.
   components:
@@ -28,7 +28,6 @@
   - type: Battery
     maxCharge: 2500
     startingCharge: 2500
-    
     
 - type: hitscan
   id: SmgPulse
