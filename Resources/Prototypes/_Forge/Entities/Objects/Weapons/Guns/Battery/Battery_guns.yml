@@ -40,7 +40,7 @@
   damage:
     types:
       Heat: 100
-      Structural: 300
+      Structural: 1000
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue

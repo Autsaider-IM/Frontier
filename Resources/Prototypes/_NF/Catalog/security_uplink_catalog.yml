@@ -1566,12 +1566,12 @@
 
 - type: listing
   id: UplinkSecurityWeaponPulseCarbineCarbine
-  name: Импульсный карабин
-  description: Высокотехнологичный энергетический карабин, который предпочитают оперативные группы Nanotrasen. Запрещено к использованию гражданскими.
+  name: Импульсный ФН-1000
+  description: Высокотехнологичный энергетический карабин, поставляемый силам ДСБФ. Запрещено к использованию гражданскими.
   productEntity: WeaponCaseLongWeaponPulseCarbine
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 20
+    FrontierUplinkCoin: 22
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -1586,8 +1586,8 @@
 
 - type: listing
   id: UplinkSecurityWeaponPulseCarbinePistol
-  name: Импульсный пистолет
-  description: Новейший энергетический пистолет, предпочитаемый оперативными группами Nanotrasen в качестве запасного оружия. Запрещено к использованию гражданскими.
+  name: Импульсный ФН-14
+  description: Новейший энергетический пистолет, поставляемый силам ДСБФ. Запрещено к использованию гражданскими.
   productEntity: WeaponCaseLongWeaponPulsePistol
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi, state: icon }
   cost:
@@ -1796,3 +1796,23 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityWeaponPulse200
+  name:  Импульсный ФН-200
+  description: uplink-security-contraband-forensics-CarbineSniper-desc
+  productEntity: WeaponCaseLongWeaponPulse20
+  icon: { sprite: Forge/Objects/Weapons/Guns/Battery/pulse20.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 18
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - Sheriff
