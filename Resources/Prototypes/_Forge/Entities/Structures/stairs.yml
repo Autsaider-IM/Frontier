@@ -117,7 +117,7 @@
 - type: entity
   id: StairBridge
   parent: Stairs
-  name: ступеньки
+  name: Ступеньки
   suffix: Мостик
   components:
   - type: Sprite
