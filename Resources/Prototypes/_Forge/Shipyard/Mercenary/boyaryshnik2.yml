@@ -11,7 +11,7 @@
 # Shuttle Notes:
 
 - type: vessel
-  id: boyaryshnik
+  id: boyaryshnik2
   parent: BaseVessel
   name: TL Боярышник MK2
   description: Среднегабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-5 человек.
@@ -21,12 +21,12 @@
   shuttlePath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
 
 - type: gameMap
-  id: boyaryshnik
+  id: boyaryshnik2
   mapName: 'Боярышник MK2'
   mapPath: /Maps/Forge/Shuttles/Mercenary/boyarichnik.yml
   minPlayers: 0
   stations:
-    boyaryshnik:
+    boyaryshnik2:
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
