@@ -1,0 +1,41 @@
+# Author -
+# GitHub: -
+# Discord: -
+
+# Maintainer Info
+# GitHub: -
+# Discord: -
+
+# Shuttle Notes:
+
+- type: vessel
+  id: false_right_side_of_he_ship
+  parent: BaseVessel
+  name: TL Фальшивый правый борт Грозного
+  description: Крупногабаритный патрульшый шаттл ДСБФ. Рекомендованный состав команды 4-8 человек.
+  price: 100000
+  category: Large
+  access: Bailiff
+  shuttlePath: /Maps/Forge/Shuttles/Nfsd/false_right_side_of_he_ship.yml
+  guidebookPage: Null
+  addComponents:
+  - type: IFF
+    flags: [HideLabel]
+
+- type: gameMap
+  id: false_right_side_of_he_ship
+  mapName: 'TL Фальшивый правый борт Грозного'
+  mapPath: /Maps/Forge/Shuttles/Nfsd/false_right_side_of_he_ship.yml
+  minPlayers: 0
+  stations:
+    false_right_side_of_he_ship:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Фальшивый правый борт Грозного {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Chef: [ 0, 0 ]
