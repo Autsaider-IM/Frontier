@@ -141,6 +141,18 @@
   subgroups:
   - ContractorGlasses
 
+- type: loadoutGroup
+  id: OServicePDA
+  name: loadout-group-contractor-pda
+  loadouts:
+  - ServiceWorkerPDAOServLd
+  - BartenderPDAOServLd
+  - ChefPDAOServLd
+  - BotanistPDAOServLd
+  - HoPPDAOServLd
+  fallbacks:
+  - ServiceWorkerPDAOServLd
+
 # EVA
 - type: loadoutGroup
   id: OServiceForcedOuterClothing

@@ -1,6 +1,6 @@
 - type: entity
   name: public affairs pen
-  parent: [PenEmbeddable, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  parent: [NFBaseUnprotectedAdvancedPen, PenEmbeddable, BaseC2ContrabandUnredeemable] #Corvax-Frontier: КБ / +NFBaseUnprotectedAdvancedPen
   id: PublicAffairsPen
   description: A weighty fountain pen for NFSD paperwork wizards. Writes in a thin blue line.
   components:

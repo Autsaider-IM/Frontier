@@ -16,9 +16,16 @@
   access:
   - Service
   - Janitor
+  - Theatre
+  - Kitchen
+  - Hydroponics
+  - Bar
+  - Medical
   - Maintenance
   - External
+  - Frontier
   - Engineering
+  - Atmospherics
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -30,8 +37,8 @@
   id: OutpostEngineerGear
   equipment:
     eyes: ClothingEyesGlassesMeson #ClothingEyesGlassesSecurity
-    id: EngineerPDA
     hands: ClothingHandsGlovesColorYellow
+    ears: ClothingHeadsetEngineering
   storage:
     back:
     - AccessConfigurator

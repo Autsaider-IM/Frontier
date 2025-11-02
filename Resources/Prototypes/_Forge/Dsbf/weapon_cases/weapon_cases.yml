@@ -90,7 +90,7 @@
 
 # - type: entity
 #   parent: WeaponCaseLong
-#   id: WeaponCaseLongWeaponShotgunKS23
+#   id: WeaponShotgunKD12
 #   name: Кейс с KS23
 #   suffix: Аплинк ДСБФ, KS23
 #   components:

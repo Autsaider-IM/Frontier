@@ -55,3 +55,6 @@ uplink-security-PowerCellNFSD-name = { ent-PowerCellNFSD }
 uplink-security-PowerCellNFSD-desc = { ent-PowerCellNFSD.desc }
 uplink-PowerCellSyndicate-name = { ent-PowerCellSyndicate }
 uplink-PowerCellSyndicate-desc = { ent-PowerCellSyndicate.desc }
+
+uplink-security-C4-name = { ent-C4 }
+uplink-security-C4-desc = { ent-C4.desc }

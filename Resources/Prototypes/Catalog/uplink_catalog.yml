@@ -1011,6 +1011,19 @@
   categories:
   - UplinkDisruption
 
+- type: listing # Corvax-Forge
+  id: UplinkToolboxAlt
+  name: Ящик продвинутых инструментов
+  description: Продвинутый набор улучшенных инструментов. Хранит в себе челюсти жизни Синдиката, электродрель Синдиката, сварочный аппарат Синдиката, мультитул Синдиката, боевые перчатки и противогаз Синдиката.
+  productEntity: ToolboxSyndicateAltFilled
+  discountCategory: rareDiscounts
+  discountDownTo:
+    TelecrystalDamaged: 8
+  cost:
+    TelecrystalDamaged: 16
+  categories:
+  - UplinkDisruption
+
 - type: listing
   id: UplinkSyndicateJawsOfLife
   name: uplink-syndicate-jaws-of-life-name
@@ -1575,7 +1588,7 @@
   id: UplinkChestRig
   name: uplink-chest-rig-name
   description: uplink-chest-rig-desc
-  productEntity: ClothingBeltMilitaryWebbing
+  productEntity: ClothingBeltMilitaryWebbingSyndicate # Corvax-Forge
   cost:
     Telecrystal: 1
   categories:

@@ -1,3 +1,12 @@
+# region Special
+- type: loadoutEffectGroup
+  id: ForgeAndroidLd
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Ipc
+    - Android
+
 # region Service OF
 - type: loadoutEffectGroup
   id: OServiceT1

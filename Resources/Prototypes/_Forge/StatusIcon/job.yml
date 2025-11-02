@@ -24,3 +24,11 @@
     state: strep
   jobName: job-name-sr
   allowSelection: false # Frontier: prefer contractor
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOutpostService
+  icon:
+    sprite: /Textures/_NF/Interface/Misc/job_icons.rsi
+    state: valet
+  jobName: forge-job-name-outpostservice

@@ -461,7 +461,7 @@
   suffix: SR
   components:
   - type: VendingMachine
-    pack: NFPTechInventory
+    pack: PTechInventoryForge # Forge-Change
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
   - type: MarketModifier

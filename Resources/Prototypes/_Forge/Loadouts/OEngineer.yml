@@ -10,7 +10,7 @@
   - ClothingUniformJumpsuitAtmosOEngiLd
   - ClothingUniformJumpskirtAtmosOEngiLd
   - ClothingUniformJumpsuitAtmosCasualOEngiLd
-  - ClothingUniformJumpsuitAtmosCasualOEngiLd
+  - ClothingUniformJumpsuitSeniorEngineerOEngiLd
   - ClothingUniformJumpskirtSeniorEngineerOEngiLd
   - ClothingUniformJumpsuitMilitaryEngineeringOEngiLd
   - ClothingUniformJumpsuitERTEngineerOEngiLd
@@ -70,3 +70,14 @@
   - ClothingHeadHatHardhatOrangeOEngiLd
   - ClothingHeadHatBeretEngineeringOEngiLd
   - ClothingHeadHelmetERTEngineerOEngi
+
+- type: loadoutGroup
+  id: OEngineerPDA
+  name: loadout-group-contractor-pda
+  loadouts:
+  - TechnicalAssistantPDAOEngiLd
+  - EngineerPDAOEngiLd
+  - AtmosPDAOEngiLd
+  - SeniorEngineerPDAOEngiLd
+  fallbacks:
+  - TechnicalAssistantPDAOEngiLd

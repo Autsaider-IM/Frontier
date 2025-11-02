@@ -25,6 +25,7 @@
             Contractor: [ -1, -1 ]
             Pilot: [ -1, -1 ]
             Mercenary: [ -1, -1 ]
+            Borg: [ -1, -1 ]
             StationRepresentative: [ 1, 1 ]
             StationTrafficController: [ 1, 1 ]
             SecurityGuard: [ 3, 3 ]
@@ -33,5 +34,4 @@
             OutpostEngineer: [ 1, 1 ]
             MailCarrier: [ 1, 1 ]
 # Others:
-#            Borg: [ 0, 0 ]
 #            Chaplain: [ 0, 0 ] # Remove this when we fix bible user spawn in some other way.

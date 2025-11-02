@@ -317,3 +317,13 @@
         - Bailiff
         - SeniorOfficer
         - Sheriff
+
+- type: listing
+  id: UplinkC4
+  name:  uplink-security-C4-name
+  description: uplink-security-C4-desc
+  productEntity: C4
+  cost:
+    FrontierUplinkCoin: 6
+  categories:
+    - UplinkSecurityUtility

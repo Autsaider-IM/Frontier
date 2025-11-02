@@ -16,9 +16,17 @@
   access:
   - Service
   - Janitor
+  - Theatre
+  - Kitchen
+  - Hydroponics
+  - Bar
   - Maintenance
   - External
+  - Frontier
   - Medical
+  - Atmospherics
+  extendedAccess:
+  - Service
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -32,10 +40,9 @@
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     eyes: ClothingEyesGlassesMed
-    id: MedicalPDA
   storage:
     back:
-    - HypoMini
+    - MedHypo
   encryptionKeys:
   - EncryptionKeyService
   - EncryptionKeyMedical
