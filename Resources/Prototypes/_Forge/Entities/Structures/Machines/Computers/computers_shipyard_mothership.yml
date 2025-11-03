@@ -189,6 +189,32 @@
     - Sergeant
 
 - type: entity
+  id: ComputerShipyardNfsdModules
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  name: Консоль верфи модулей
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Modules
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Modules:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ShipyardConsole
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig]
+
+- type: entity
   id: GroznyMothershipComputer
   parent: BaseMothershipComputer
   name: консоль верфи Грозного
@@ -207,9 +233,33 @@
   - type: ShipyardConsole
     newJobTitle: null
     shipyardChannel: Nfsd
-    newAccessLevels: [Captain, Security, Brig]
+    newAccessLevels: [Captain, Security, Brig, Modules]
   - type: ShipyardListing
     shuttles:
     - false_left_side_of_he_ship
     - false_right_side_of_he_ship
 
+- type: entity
+  id: Union4MothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Союза
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+  - type: ShipyardListing
+    shuttles:
+    - false_left_side_of_he_ship_un4
+    - false_right_side_of_he_ship_un4

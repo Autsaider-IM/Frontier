@@ -1,0 +1,46 @@
+# Author -
+# GitHub: -
+# Discord: -
+
+# Maintainer Info
+# GitHub: -
+# Discord: -
+
+# Shuttle Notes:
+
+- type: vessel
+  id: Union4
+  parent: BaseVessel
+  name: TL Союз MK4
+  description: Крупногабаритный каторжный шаттл. Рекомендованный состав команды 8+ человек.
+  price: 226350
+  category: Large
+  group: Security
+  access: Bailiff
+  shuttlePath: /Maps/Forge/Shuttles/Nfsd/union4.yml
+  guidebookPage: Null
+  class:
+  - Capital
+  - Detainment
+  - Expedition
+  addComponents:
+  - type: ShuttleFaction
+    faction: NFSD
+
+- type: gameMap
+  id: Union4
+  mapName: 'TL Союз MK4'
+  mapPath: /Maps/Forge/Shuttles/Nfsd/union4.yml
+  minPlayers: 0
+  stations:
+    Union4:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Союз MK4 {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Prisoner: [ 0, 0 ]
