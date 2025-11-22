@@ -288,3 +288,27 @@
   technologyPrerequisites:
   - NFFission
   position: 4, 26
+
+- type: technology
+  id: TechnicLogisticProduction
+  name: Промышленность TechnicLogistic
+  entityIcon: BannerTL
+  discipline: NFArsenalMercenary
+  tier: 1
+  cost: 1000
+  recipeUnlocks:
+  - WeaponPistolSwift
+  position: 0, 50
+
+- type: technology
+  id: BasicWeaponProductionTL
+  name: Базовое производство оружия
+  entityIcon: WeaponPistolSwift
+  discipline: NFArsenalMercenary
+  tier: 1
+  cost: 1000
+  recipeUnlocks:
+  - WeaponPistolSwift
+  technologyPrerequisites:
+  - BasicWeaponProductionTL
+  position: 1, 50

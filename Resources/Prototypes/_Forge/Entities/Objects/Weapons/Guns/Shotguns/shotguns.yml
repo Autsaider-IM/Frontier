@@ -216,5 +216,22 @@
     walkModifier: 0.95
     sprintModifier: 0.95
   - type: NFWeaponDetails
-    class: weapon-details-class-pistol
+    class: weapon-details-class-shotgun
+    manufacturer: weapon-details-manufacturer-TechnicLogistic
+
+- type: entity
+  id: WeaponShotgunChimera
+  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgunWieldable ]
+  name: Химера
+  description: Нет
+  components:
+  - type: Gun
+    fireRate: 2
+    projectileSpeed: 37
+    soundGunshot:
+      path: /Audio/_Forge/Weapons/Guns/Gunshots/shotgun_metal.ogg
+  - type: Sprite
+    sprite: Forge/Objects/Weapons/Guns/Shotguns/chimera.rsi
+  - type: Clothing
+    sprite: Forge/Objects/Weapons/Guns/Shotguns/chimera.rsi
     manufacturer: weapon-details-manufacturer-TechnicLogistic
