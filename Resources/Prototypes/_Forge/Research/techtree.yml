@@ -295,10 +295,10 @@
   entityIcon: BannerTL
   discipline: NFArsenalMercenary
   tier: 1
-  cost: 1000
+  cost: 10000
   recipeUnlocks:
   - WeaponPistolSwift
-  position: 0, 50
+  position: 0, 48
 
 - type: technology
   id: BasicWeaponProductionTL
@@ -306,9 +306,9 @@
   entityIcon: WeaponPistolSwift
   discipline: NFArsenalMercenary
   tier: 1
-  cost: 1000
+  cost: 5000
   recipeUnlocks:
   - WeaponPistolSwift
   technologyPrerequisites:
   - BasicWeaponProductionTL
-  position: 1, 50
+  position: 1, 48
