@@ -44,9 +44,11 @@
   entityIcon: ClothingOuterHardsuitMercenaryElite
   discipline: NFArsenalMercenary
   tier: 1
-  cost: 20000
+  cost: 35000
   recipeUnlocks:
   - ClothingOuterHardsuitMercenaryElite
+  - ClothingOuterHardsuitAAMr
+  - ClothingOuterHardsuitAAMrAdv
   technologyPrerequisites:
   - NFHardsuitsArmored
   position: 5, 9
@@ -312,3 +314,29 @@
   technologyPrerequisites:
   - BasicWeaponProductionTL
   position: 1, 48
+  id: ForgeAdvancedProMaxBoots
+  name: forge-research-technology-advpromax
+  entityIcon: ClothingShoesBootsMagAdvsPromax
+  discipline: NFScience
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - FRecClothingShoesBootsMagAdvsPromax
+  technologyPrerequisites:
+  - NFMagnetsTechAdvanced
+  position: 3, 14
+
+- type: technology
+  id: ForgeBattleProMaxBoots
+  name: forge-research-technology-battlepromax
+  entityIcon: ClothingShoesBootsMagMercPromax
+  discipline: NFArsenalMercenary
+  tier: 1
+  cost: 15000
+  recipeUnlocks:
+  - FRecClothingShoesBootsMagMercPromax
+  - FRecClothingShoesBootsMagBattlePromax
+  technologyPrerequisites:
+  - NFMagnetsTechCombat
+  - ForgeAdvancedProMaxBoots
+  position: 4, 13

@@ -2,7 +2,7 @@
   name: Импульсный ФН-200
   parent: [BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen]
   id: pulse20
-  description: Ученные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер.
+  description: Учёные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер.
   components:
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Battery/pulse20.rsi
@@ -22,8 +22,9 @@
     fireRate: 3.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
-  - type: HitscanBatteryAmmoProvider
-    proto: SmgPulse
+    projectileSpeed: 50
+  - type: ProjectileBatteryAmmoProvider # Corvax-Forge: Weaponary update
+    proto: ForgeBulletPulse
     fireCost: 100
   - type: Battery
     maxCharge: 2500

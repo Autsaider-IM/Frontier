@@ -53,7 +53,7 @@
   id: JobMercenary
   groups:
   - MercenaryHead
-  - ContractorNeck
+  - MercNeck # Forge-change ContractorNeck<MercNeck
   - MercenaryJumpsuit
   - MercenaryGloves
   - MercenaryBackpack
@@ -64,7 +64,7 @@
   - MercenaryGlasses
   - MercenaryBelt
   - MercenaryEars
-  - ContractorEncryptionKey
+  - MercEncryptionKey # Forge-change
   - ContractorBoxSurvival
   - MercenaryPDA
   - ContractorWallet
@@ -229,7 +229,7 @@
   - DocEars
   - ContractorBoxSurvival
   - DocPDA
-  - ContractorWallet
+  - ParaMedicalWallet # Forge-change
   - ContractorCartridge
   - ContractorImplanter
   - ContractorEncryptionKey

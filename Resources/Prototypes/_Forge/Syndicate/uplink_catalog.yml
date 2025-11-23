@@ -1220,18 +1220,18 @@
   categories:
   - UplinkDeceptionSmugger
 
-- type: listing
-  id: SmuggerUplinkBribe
-  name: uplink-bribe-name
-  description: uplink-bribe-desc
-  productEntity: BriefcaseSyndieLobbyingBundleFilled
-  discountCategory: usualDiscounts
-  discountDownTo:
-    TelecrystalDamaged: 4
-  cost:
-    TelecrystalDamaged: 8
-  categories:
-    - UplinkDeceptionSmugger
+# - type: listing
+#   id: SmuggerUplinkBribe
+#   name: uplink-bribe-name
+#   description: uplink-bribe-desc
+#   productEntity: BriefcaseSyndieLobbyingBundleFilled
+#   discountCategory: usualDiscounts
+#   discountDownTo:
+#     TelecrystalDamaged: 4
+#   cost:
+#     TelecrystalDamaged: 8
+#   categories:
+#     - UplinkDeceptionSmugger
 
 # - type: listing
 #   id: SmuggerUplinkGigacancerScanner
@@ -2730,8 +2730,8 @@
 
 - type: listing
   id: SmuggerUplinkSurplusBundle50
-  name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  name: uplink-smug-bundle50-name
+  description: uplink-smug-bundle50-desc
   productEntity: CrateSyndicateSurplusBundle50
   cost:
     TelecrystalDamaged: 50 # Frontier: 20<35
@@ -2749,8 +2749,8 @@
 
 - type: listing
   id: SmuggerUplinkSurplusBundle100
-  name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  name: uplink-smug-bundle100-name
+  description: uplink-smug-bundle100-desc
   productEntity: CrateSyndicateSurplusBundle100
   cost:
     TelecrystalDamaged: 100 # Frontier: 20<35
@@ -2768,8 +2768,8 @@
 
 - type: listing
   id: SmuggerUplinkSurplusBundle150
-  name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  name: uplink-smug-bundle150-name
+  description: uplink-smug-bundle150-desc
   productEntity: CrateSyndicateSurplusBundle150
   cost:
     TelecrystalDamaged: 150 # Frontier: 20<35
@@ -2787,8 +2787,8 @@
 
 - type: listing
   id: SmuggerUplinkSurplusBundle200
-  name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  name: uplink-smug-bundle200-name
+  description: uplink-smug-bundle200-desc
   productEntity: CrateSyndicateSurplusBundle200
   cost:
     TelecrystalDamaged: 200 # Frontier: 20<35
@@ -2806,8 +2806,8 @@
 
 - type: listing
   id: SmuggerUplinkSurplusBundle250
-  name: uplink-surplus-bundle-name
-  description: uplink-surplus-bundle-desc
+  name: uplink-smug-bundle250-name
+  description: uplink-smug-bundle250-desc
   productEntity: CrateSyndicateSurplusBundle250
   cost:
     TelecrystalDamaged: 250 # Frontier: 20<35
@@ -2850,5 +2850,25 @@
   productEntity: PowerCellSyndicate
   cost:
     TelecrystalDamaged: 20
+  categories:
+  - UplinkWearablesSmugger
+
+- type: listing
+  id: SmuggerUplinkFSyndicateProtolathe
+  name: uplink-FSyndicateProtolathe-name
+  description: uplink-FSyndicateProtolathe-desc
+  productEntity: FSyndicateProtolatheFlatpack
+  cost:
+    TelecrystalDamaged: 100
+  categories:
+  - UplinkJobSmugger
+
+- type: listing
+  id: SmuggerUplinkClothingBackpackSyndicateRaidBundle
+  name: uplink-ClothingBackpackSyndicateRaidBundle-name
+  description: uplink-ClothingBackpackSyndicateRaidBundle-desc
+  productEntity: ClothingBackpackSyndicateRaidBundle
+  cost:
+    TelecrystalDamaged: 24
   categories:
   - UplinkWearablesSmugger

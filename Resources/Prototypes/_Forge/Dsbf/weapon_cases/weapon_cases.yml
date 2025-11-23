@@ -204,7 +204,7 @@
       amount: 1
     - id: NFMagazineSubMachineGunTopMounted35
       amount: 2
-    - id: NFAmmunitionBoxPistol35
+    - id: NFAmmunitionBoxRifle25
       amount: 1
 
 - type: entity
@@ -271,7 +271,7 @@
       amount: 1
     - id: NFMagazineBoxRifle20
       amount: 2
-    - id: NFAmmunitionBoxRifle30
+    - id: NFAmmunitionBoxRifle20
       amount: 1
 
 - type: entity
@@ -294,6 +294,21 @@
   - type: StorageFill
     contents:
     - id: WeaponPulseCarbineSniper
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongWeaponSniperBrute
+  name: Кейс с Брут
+  suffix: Аплинк ДСБФ, Брут
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSniperBrute
+      amount: 1
+    - id: MagazineAntiMateriel
+      amount: 2
+    - id: NFAmmunitionBoxRifle60
       amount: 1
 
 - type: entity

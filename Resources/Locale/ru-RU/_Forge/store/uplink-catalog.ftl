@@ -58,3 +58,20 @@ uplink-PowerCellSyndicate-desc = { ent-PowerCellSyndicate.desc }
 
 uplink-security-C4-name = { ent-C4 }
 uplink-security-C4-desc = { ent-C4.desc }
+uplink-smug-bundle50-name = ящик припасов синдиката первого класса
+uplink-smug-bundle50-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 50 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-smug-bundle100-name = ящик припасов синдиката второго класса
+uplink-smug-bundle100-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 100 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-smug-bundle150-name = ящик припасов синдиката третьего класса
+uplink-smug-bundle150-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 150 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-smug-bundle200-name = ящик припасов синдиката четвёртого класса
+uplink-smug-bundle200-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 200 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-smug-bundle250-name = ящик припасов синдиката пятого класса
+uplink-smug-bundle250-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 250 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-FSyndicateProtolathe-name = { ent-FSyndicateProtolathe }
+uplink-FSyndicateProtolathe-desc = { ent-FSyndicateProtolathe.desc }
+uplink-ClothingBackpackSyndicateRaidBundle-name = комплект рейдерского костюма синдиката
+uplink-ClothingBackpackSyndicateRaidBundle-desc = Комплект, в который входит рейдерский костюм и шлем, противогаз и боевые перчатки.
+
+forge-uplink-security-magbootspro-name = продвинутые магнитные сапоги ДСБФ
+forge-uplink-security-magbootspro-desc = Магнитные ботинки со встроенным джетпаком и местом под личное оружие, не замедляющие движения своего владельца благодаря ослабленному магнитному притяжению.
