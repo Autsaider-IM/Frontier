@@ -335,8 +335,8 @@
   - type: StaticPrice
     price: 500
   - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
+    walkModifier: 0.90
+    sprintModifier: 0.90
   - type: NFWeaponDetails
     class: weapon-details-class-rifle
     manufacturer: weapon-details-manufacturer-TechnicLogistic
@@ -537,10 +537,10 @@
   - type: Appearance
 
 - type: entity
-  name: Анархист
+  name: Anarchist
   parent: [BaseWeaponRifleAssaultChamber45, BaseC3SyndicateContraband, NFBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleAnarchist
-  description: Штурмовой карабин.
+  description: The TechnicLogistic assault carbine from the Self-Defense Forces has a high authority and rate of fire, but the large caliber makes the weapon quite cumbersome.
   components:
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Rifles/anarchist.rsi
@@ -550,7 +550,7 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 6.5
+    fireRate: 5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: ChamberMagazineAmmoProvider
@@ -589,3 +589,6 @@
   - type: Item
     shape:
     - 0,0,3,1
+  - type: ClothingSpeedModifier
+    walkModifier: 0.90
+    sprintModifier: 0.90

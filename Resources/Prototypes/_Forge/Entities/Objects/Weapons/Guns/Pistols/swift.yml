@@ -33,20 +33,3 @@
     radius: 4.5
     softness: 5
     autoRot: true
-
-- type: entity
-  id: WeaponPistolPeacemake
-  parent: [ NFBaseWeaponPistolChamber45, NFBaseWeaponFramePistolNanotrasen ]
-  name: Миротворец
-  description: Ничего
-  components:
-  - type: Sprite
-    sprite: Forge/Objects/Weapons/Guns/Pistols/peacemake.rsi
-  - type: Clothing
-    sprite: Forge/Objects/Weapons/Guns/Pistols/peacemake.rsi
-  - type: Gun # Corvax-Forge: Weaponary update
-    fireRate: 4
-    projectileSpeed: 40
-  - type: NFWeaponDetails
-    class: weapon-details-class-pistol
-    manufacturer: weapon-details-manufacturer-TechnicLogistic

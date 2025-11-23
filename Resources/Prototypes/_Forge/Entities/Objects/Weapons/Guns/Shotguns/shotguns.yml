@@ -87,7 +87,7 @@
   name: Отбойник
   parent: [BaseItem, NFBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
   id: WeaponShotgunAD12
-  description:  Автоматический Дробовик 12 модели поставляется ограниченными партиями для сил дсбф компанией TechnicLogistic, барабанная система подачи боеприпасов позволяет оружию развить чудовищную скорострельность и убойную силу.
+  description:  The Model 12 Automatic Shotgun is supplied in limited quantities to the DSBF forces by TechnicLogistic. The drum ammunition feeding system allows the weapon to develop a monstrous rate of fire and killing power.
   components:
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Shotguns/ad12.rsi
@@ -226,10 +226,16 @@
   description: Нет
   components:
   - type: Gun
-    fireRate: 2
+    fireRate: 1.7
     projectileSpeed: 37
     soundGunshot:
       path: /Audio/_Forge/Weapons/Guns/Gunshots/shotgun_metal.ogg
+  - type: BallisticAmmoProvider
+    capacity: 10
+    proto: NFShellShotgunBuckshot
+    whitelist:
+      tags:
+      - ShellShotgun
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Shotguns/chimera.rsi
   - type: Clothing
