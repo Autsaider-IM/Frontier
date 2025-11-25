@@ -17,7 +17,7 @@
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/Forge/Shuttles/Nfsd/Grozny.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/grozny.yml
   guidebookPage: Null
   class:
   - Capital
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Grozny
   mapName: 'TL Грозный'
-  mapPath: /Maps/Forge/Shuttles/Nfsd/Grozny.yml
+  mapPath: /Maps/_Forge/Shuttles/Nfsd/grozny.yml
   minPlayers: 0
   stations:
     Grozny:

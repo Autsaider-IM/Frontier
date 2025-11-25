@@ -17,7 +17,7 @@
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/Forge/Shuttles/Nfsd/union4.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/union4.yml
   guidebookPage: Null
   class:
   - Capital
@@ -30,7 +30,7 @@
 - type: gameMap
   id: Union4
   mapName: 'TL Союз MK4'
-  mapPath: /Maps/Forge/Shuttles/Nfsd/union4.yml
+  mapPath: /Maps/_Forge/Shuttles/Nfsd/union4.yml
   minPlayers: 0
   stations:
     Union4:

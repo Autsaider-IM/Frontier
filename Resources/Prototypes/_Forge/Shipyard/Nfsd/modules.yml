@@ -15,10 +15,10 @@
   parent: BaseVessel
   name: TL Фальшивый левый борт Грозного
   description: Фальшивый правый борт Грозного
-  price: 0
+  price: 1
   group: Modules
   access: Modules
-  shuttlePath: /Maps/Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
   guidebookPage: Null
   addComponents:
   - type: IFF
@@ -27,8 +27,8 @@
 - type: gameMap
   id: false_left_side_of_he_ship
   mapName: 'TL Фальшивый левый борт Грозного'
-  mapPath: /Maps/Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
-  minPlayers: 0
+  mapPath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
+  minPlayers: 1
   stations:
     false_left_side_of_he_ship:
       stationProto: StandardFrontierSecurityVessel
@@ -44,11 +44,11 @@
   parent: BaseVessel
   name: TL Фальшивый правый борт Грозного
   description: Фальшивый правый борт Грозного
-  price: 0
+  price: 1
   category: Large
   group: Modules
   access: Modules
-  shuttlePath: /Maps/Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
   guidebookPage: Null
   addComponents:
   - type: IFF
@@ -57,8 +57,8 @@
 - type: gameMap
   id: false_right_side_of_he_ship
   mapName: 'TL Фальшивый правый борт Грозного'
-  mapPath: /Maps/Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
-  minPlayers: 0
+  mapPath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
+  minPlayers: 1
   stations:
     false_right_side_of_he_ship:
       stationProto: StandardFrontierSecurityVessel
@@ -74,11 +74,11 @@
   parent: BaseVessel
   name: TL Фальшивый правый борт Союза
   description: Фальшивый правый борт Грозного
-  price: 0
+  price: 1
   category: Large
   group: Modules
   access: Modules
-  shuttlePath: /Maps/Forge/Shuttles/Modules/false_right_side_of_he_ship_un4.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship_un4.yml
   guidebookPage: Null
   addComponents:
   - type: IFF
@@ -87,8 +87,8 @@
 - type: gameMap
   id: false_right_side_of_he_ship_un4
   mapName: 'TL Фальшивый правый борт Союза'
-  mapPath: /Maps/Forge/Shuttles/Modules/false_right_side_of_he_ship_un4.yml
-  minPlayers: 0
+  mapPath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship_un4.yml
+  minPlayers: 1
   stations:
     false_right_side_of_he_ship_un4:
       stationProto: StandardFrontierSecurityVessel
@@ -98,16 +98,17 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
+
 - type: vessel
   id: false_left_side_of_he_ship_un4
   parent: BaseVessel
   name: TL Фальшивый левый борт Союза
   description: Фальшивый левый борт Грозного
-  price: 0
+  price: 1
   category: Large
   group: Modules
   access: Modules
-  shuttlePath: /Maps/Forge/Shuttles/Modules/false_left_side_of_he_ship_un4.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship_un4.yml
   guidebookPage: Null
   addComponents:
   - type: IFF
@@ -116,8 +117,8 @@
 - type: gameMap
   id: false_left_side_of_he_ship_un4
   mapName: 'TL Фальшивый левый борт Союза'
-  mapPath: /Maps/Forge/Shuttles/Modules/false_left_side_of_he_ship_un4.yml
-  minPlayers: 0
+  mapPath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship_un4.yml
+  minPlayers: 1
   stations:
     false_left_side_of_he_ship_un4:
       stationProto: StandardFrontierSecurityVessel
