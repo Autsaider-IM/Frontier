@@ -302,31 +302,6 @@
   - WeaponPistolSwift
   position: 0, 48
 
-# - type: technology
-#   id: BasicWeaponProductionTL
-#   name: Базовое производство оружия
-#   entityIcon: WeaponPistolSwift
-#   discipline: NFArsenalMercenary
-#   tier: 1
-#   cost: 5000
-#   recipeUnlocks:
-#   - WeaponPistolSwift
-#   technologyPrerequisites:
-#   - BasicWeaponProductionTL
-#   position: 1, 48
-
-#   id: ForgeAdvancedProMaxBoots
-#   name: forge-research-technology-advpromax
-#   entityIcon: ClothingShoesBootsMagAdvsPromax
-#   discipline: NFScience
-#   tier: 1
-#   cost: 10000
-#   recipeUnlocks:
-#   - FRecClothingShoesBootsMagAdvsPromax
-#   technologyPrerequisites:
-#   - NFMagnetsTechAdvanced
-#   position: 3, 14
-
 - type: technology
   id: ForgeBattleProMaxBoots
   name: forge-research-technology-battlepromax
@@ -339,5 +314,5 @@
   - FRecClothingShoesBootsMagBattlePromax
   technologyPrerequisites:
   - NFMagnetsTechCombat
-  - ForgeAdvancedProMaxBoots
+  # - ForgeAdvancedProMaxBoots
   position: 4, 13
