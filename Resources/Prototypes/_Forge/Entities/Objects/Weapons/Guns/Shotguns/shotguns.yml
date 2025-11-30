@@ -240,4 +240,6 @@
     sprite: Forge/Objects/Weapons/Guns/Shotguns/chimera.rsi
   - type: Clothing
     sprite: Forge/Objects/Weapons/Guns/Shotguns/chimera.rsi
+  - type: NFWeaponDetails
+    class: weapon-details-class-shotgun
     manufacturer: weapon-details-manufacturer-TechnicLogistic

@@ -70,37 +70,37 @@
     - id: ScrapMopBucket
       prob: 0.1
       orGroup: Junk
-    - id: ScalpelShiv 
+    - id: ScalpelShiv
       prob: 0.001
       orGroup: Weapons
-    - id: CombatKnife 
+    - id: CombatKnife
       prob: 0.001
       orGroup: Weapons
-    - id: BaseBallBat 
+    - id: BaseBallBat
       prob: 0.001
       orGroup: Weapons
-    - id: SurvivalKnife 
+    - id: SurvivalKnife
       prob: 0.001
       orGroup: Weapons
-    - id: PlasmaShiv 
+    - id: PlasmaShiv
       prob: 0.001
       orGroup: Weapons
-    - id: BrokenBottle 
+    - id: BrokenBottle
       prob: 0.001
       orGroup: Weapons
-    - id: Stunbaton 
+    - id: Stunbaton
       prob: 0.001
       orGroup: Weapons
-    - id: NFWeaponShotgunHandmadeEmpty 
+    - id: NFWeaponShotgunHandmadeEmpty
       prob: 0.001
       orGroup: Weapons
-    - id: NFWeaponShotgunImprovised 
+    - id: NFWeaponShotgunImprovised
       prob: 0.001
       orGroup: Weapons
-    - id: CrossbowImprovisedHand 
+    - id: CrossbowImprovisedHand
       prob: 0.001
       orGroup: Weapons
-    - id: CrossbowImprovised 
+    - id: CrossbowImprovised
       prob: 0.001
       orGroup: Weapons
     - id: ClothingUniformJumpsuitFamilyGuy
@@ -292,7 +292,7 @@
     - id: ClothingHandsGlovesColorYellowBudget
       prob: 0.01
       orGroup: NotUseful
-    - id: NFCartridgeCap 
+    - id: NFCartridgeCap
       prob: 0.01
       orGroup: NotUseful
     - id: EncryptionKeyCommon
@@ -313,10 +313,10 @@
     - id: WeakKudzu
       prob: 0.01
       orGroup: NotUseful
-    - id: NFMagazineBoxFoam 
+    - id: NFMagazineBoxFoam
       prob: 0.001
       orGroup: NotUseful
-    - id: NFBoxDonkSoftBox 
+    - id: NFBoxDonkSoftBox
       prob: 0.008
       orGroup: NotUseful
     - id: GrenadeFoamDart
