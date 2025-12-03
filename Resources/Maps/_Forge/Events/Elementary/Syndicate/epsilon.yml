@@ -5422,18 +5422,4 @@ entities:
     - type: Transform
       pos: 1.5,3.5
       parent: 2
-- proto: WeaponTurretLaserSyndie
-  entities:
-  - uid: 761
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,5.5
-      parent: 2
-  - uid: 762
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 0.5,5.5
-      parent: 2
 ...

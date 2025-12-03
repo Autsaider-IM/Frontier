@@ -3138,7 +3138,7 @@ entities:
     - type: Transform
       pos: 3.5,20.5
       parent: 436
-- proto: WeaponTurretLaserSyndie
+- proto: NFSpawnMobWeaponTurretLaserSyndicate
   entities:
   - uid: 462
     components:
