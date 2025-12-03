@@ -210,12 +210,12 @@
         type: ShipyardConsoleBoundUserInterface
   - type: ShipyardConsole
     shipyardChannel: Nfsd
-    newAccessLevels: [Captain, Security, Brig]
+    newAccessLevels: [Captain, Security, Brig, Modules]
 
 - type: entity
-  id: GroznyMothershipComputer
+  id: OrionMothershipComputer
   parent: BaseMothershipComputer
-  name: консоль верфи Грозного
+  name: консоль модулей Ориона
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/computers.rsi
@@ -234,13 +234,38 @@
     newAccessLevels: [Captain, Security, Brig, Modules]
   - type: ShipyardListing
     shuttles:
-    - false_left_side_of_he_ship
-    - false_right_side_of_he_ship
+    - false_right_side_of_he_ship_orion
+    - false_left_side_of_he_ship_orion
+
+- type: entity
+  id: OrionMothershipComputerTL
+  parent: BaseMothershipComputer
+  name: консоль верфи Ориона
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+  - type: ShipyardListing
+    shuttles:
+    - Warrior2
+    - Wing
 
 - type: entity
   id: Union4MothershipComputer
   parent: BaseMothershipComputer
-  name: консоль верфи Союза
+  name: консоль модулей Союза
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/computers.rsi

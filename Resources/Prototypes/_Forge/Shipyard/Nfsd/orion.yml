@@ -13,9 +13,9 @@
 - type: vessel
   id: Orion
   parent: BaseVessel
-  name: TL Орион
+  name: TL Орион MK2
   description: Крупногабаритный линейный крейсер. Рекомендованный состав команды 4-8 человек.
-  price: 180000 
+  price: 589000
   category: Large
   group: Security
   access: Bailiff
@@ -29,7 +29,7 @@
 
 - type: gameMap
   id: Orion
-  mapName: 'TL Орион'
+  mapName: 'TL Орион MK2'
   mapPath: /Maps/_Forge/Shuttles/Nfsd/orion.yml
   minPlayers: 0
   stations:
@@ -37,7 +37,7 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Орион {1}'
+          mapNameTemplate: 'Орион MK2 {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

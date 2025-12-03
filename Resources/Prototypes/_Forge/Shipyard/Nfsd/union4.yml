@@ -11,8 +11,8 @@
 - type: vessel
   id: Union4
   parent: BaseVessel
-  name: TL Союз MK4
-  description: Крупногабаритный каторжный шаттл. Рекомендованный состав команды 8+ человек.
+  name: TL Союз-M4
+  description: Крупногабаритный эсминец ДСБФ. Рекомендованный состав команды 5+ человек.
   price: 226350
   category: Large
   group: Security
@@ -29,7 +29,7 @@
 
 - type: gameMap
   id: Union4
-  mapName: 'TL Союз MK4'
+  mapName: 'TL Союз-M4'
   mapPath: /Maps/_Forge/Shuttles/Nfsd/union4.yml
   minPlayers: 0
   stations:
@@ -37,10 +37,7 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Союз MK4 {1}'
+          mapNameTemplate: 'Союз-M4 {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationJobs
-          availableJobs:
-            Prisoner: [ 0, 0 ]

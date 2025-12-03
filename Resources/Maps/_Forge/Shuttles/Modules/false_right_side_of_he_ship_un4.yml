@@ -118,7 +118,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: false_right_side_of_he_ship_un4
-- proto: AirlockGlassShuttleNfsdLocked
+- proto: AirlockGlassShuttleNfsdLockedDebug
   entities:
   - uid: 2
     components:

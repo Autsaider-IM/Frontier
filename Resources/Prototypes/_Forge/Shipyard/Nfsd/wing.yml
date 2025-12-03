@@ -11,31 +11,31 @@
 # Shuttle Notes:
 
 - type: vessel
-  id: Warrior2
+  id: Wing
   parent: BaseVessel
-  name: TL Варриор MK2
-  description: Шаттл перехватчик Варриор. Произведено частной военно-производственной компаний TechnicLogistic по спец. заказу НТ. Рекомендуемый состав команды 1-2 человека.
-  price: 29500
+  name: TL Крыло
+  description: Шаттл бомбардировщик Крыло. Произведено частной военно-производственной компаний TechnicLogistic по спец. заказу НТ. Рекомендуемый состав команды 1-2 человека.
+  price: 32500
   group: Security
   category: Small
   access: Security
   mapchecker_group_override: Security
-  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/warrior2.yml
+  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/wing.yml
   addComponents:
   - type: ShuttleFaction
     faction: NFSD
 
 - type: gameMap
-  id: Warrior2
-  mapName: 'TL Варриор MK2'
-  mapPath: /Maps/_Forge/Shuttles/Nfsd/warrior2.yml
+  id: Wing
+  mapName: 'TL Крыло'
+  mapPath: /Maps/_Forge/Shuttles/Nfsd/wing.yml
   minPlayers: 0
   stations:
-    Warrior2:
+    Wing:
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Варриор MK2 {1}'
+          mapNameTemplate: 'Крыло{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
