@@ -1,5 +1,5 @@
 - type: vendingMachineInventory
   id: ColiseumVendingMachineInventory
   startingInventory:
-    ShipVoucherNfsdModul: 4294967295
+    ShipVoucherNfsdModul: 15
 # Помогите я в рабстве...

@@ -154,3 +154,5 @@
     consoleType: Modules
     access:
     - Modules # Frontier
+  - type: StaticPrice #CorvaxFrontier
+    price: 1200
