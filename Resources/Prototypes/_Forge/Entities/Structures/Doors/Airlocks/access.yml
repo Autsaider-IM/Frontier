@@ -8,3 +8,16 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsCentralCommand ]
+
+- type: entity
+  parent: AirlockGlassShuttleNfsd
+  id: AirlockGlassShuttleNfsdLockedDebug
+  name: стыковочный шлюз
+  suffix: ДСБФ, ДЕБАГ
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurity ]
+  - type: ApcPowerReceiver
+    needsPower: false
+    powerLoad: 0

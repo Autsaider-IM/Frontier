@@ -8809,7 +8809,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 10.5,41.5
       parent: 1
-- proto: WeaponNavalCannonDravon
+- proto: WeaponTurretDravon
   entities:
   - uid: 91
     components:
@@ -8835,7 +8835,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 5.5,41.5
       parent: 1
-- proto: WeaponNavalCannonKargil
+- proto: WeaponTurretKargil
   entities:
   - uid: 368
     components:
@@ -8855,7 +8855,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 13.5,36.5
       parent: 1
-- proto: WeaponNavalCannontAK570
+- proto: WeaponTurretAK570
   entities:
   - uid: 379
     components:
@@ -8875,7 +8875,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 17.5,26.5
       parent: 1
-- proto: WeaponNavalCannonTarnyxReload
+- proto: WeaponTurretTarnyxReload
   entities:
   - uid: 222
     components:

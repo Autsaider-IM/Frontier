@@ -32,3 +32,8 @@
 - type: accessLevel
   id: Cryogenics
   name: id-card-access-level-cryogenics
+
+- type: accessLevel
+  id: Modules
+  name: id-card-access-level-basic-modules
+  canAddToIdCard: false

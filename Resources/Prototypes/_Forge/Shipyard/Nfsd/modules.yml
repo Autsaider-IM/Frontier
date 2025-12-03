@@ -5,69 +5,10 @@
 # Corvax_frontier
 
 # Maintainer Info
-# GitHub: https://github.com/mersen-tyn
+# GitHub: https://github.com/Autsaider-IM
 # Discord: autsaider_m
 
 # Shuttle Notes:
-
-- type: vessel
-  id: false_left_side_of_he_ship
-  parent: BaseVessel
-  name: TL Фальшивый левый борт Грозного
-  description: Фальшивый правый борт Грозного
-  price: 1
-  group: Modules
-  access: Modules
-  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
-  guidebookPage: Null
-  addComponents:
-  - type: IFF
-    flags: [HideLabel]
-
-- type: gameMap
-  id: false_left_side_of_he_ship
-  mapName: 'TL Фальшивый левый борт Грозного'
-  mapPath: /Maps/_Forge/Shuttles/Modules/false_left_side_of_he_ship.yml
-  minPlayers: 1
-  stations:
-    false_left_side_of_he_ship:
-      stationProto: StandardFrontierSecurityVessel
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Фальшивый левый борт Грозного {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-
-- type: vessel
-  id: false_right_side_of_he_ship
-  parent: BaseVessel
-  name: TL Фальшивый правый борт Грозного
-  description: Фальшивый правый борт Грозного
-  price: 1
-  category: Large
-  group: Modules
-  access: Modules
-  shuttlePath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
-  guidebookPage: Null
-  addComponents:
-  - type: IFF
-    flags: [HideLabel]
-
-- type: gameMap
-  id: false_right_side_of_he_ship
-  mapName: 'TL Фальшивый правый борт Грозного'
-  mapPath: /Maps/_Forge/Shuttles/Modules/false_right_side_of_he_ship.yml
-  minPlayers: 1
-  stations:
-    false_right_side_of_he_ship:
-      stationProto: StandardFrontierSecurityVessel
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Фальшивый правый борт Грозного {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
 
 - type: vessel
   id: false_right_side_of_he_ship_un4
