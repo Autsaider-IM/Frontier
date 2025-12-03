@@ -8,7 +8,7 @@
   content:
   - ClothingHeadHelmetSyndicate
   - ClothingOuterEVASuitSyndicate
-  - WeaponRifleCascade
+  # - WeaponRifleCascade
   - NFMagazineRifle30
   - NFMagazineRifle30
   - MedkitFilled
