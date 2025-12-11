@@ -11826,13 +11826,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 6.5,13.5
       parent: 588
-- proto: StructurePistolRackWallmountedMercenaryFilled
-  entities:
-  - uid: 772
-    components:
-    - type: Transform
-      pos: 13.5,15.5
-      parent: 588
+# - proto: StructurePistolRackWallmountedMercenaryFilled
+#   entities:
+#   - uid: 772
+#     components:
+#     - type: Transform
+#       pos: 13.5,15.5
+#       parent: 588
 - proto: SubstationBasic
   entities:
   - uid: 467
