@@ -1,4 +1,48 @@
 - type: entity
+  id: BluespaceCacheError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+
+    startAnnouncement: station-event-bluespace-cache-start-announcement
+    startAudio:
+      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_cache_arrival.ogg
+    warningAnnouncement: station-event-bluespace-cache-warning-announcement
+    endAnnouncement: station-event-bluespace-cache-end-announcement
+    endAudio:
+      path: /Audio/_NF/Announcements/PocketSizedAndy/andy2_bluespace_cache_leave.ogg
+    earliestStart: 100
+    weight: 5
+    duration: 1350
+    maxDuration: 1560
+    reoccurrenceDelay: 360 # 6 hours
+    requiredJobs:
+      Sheriff: 1
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SyndicateWeaponsCache
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: Shuttle
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor # Added post-FTL, so anchoring is fine.
+        paths:
+        - /Maps/_NF/Bluespace/cache.yml
+    rewardAccounts:
+      Nfsd: 1.0
+
+- type: entity
   id: BluespaceVaultError
   parent: BaseStationEventShortDelay
   components:
@@ -159,7 +203,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_Forge/Events/Periodic/Magic/shuttleFederationMages.yml #Forge-Change
+        - /Maps/_NF/Bluespace/wizardtower.yml
 
 - type: entity
   id: BluespaceBloodMoon
