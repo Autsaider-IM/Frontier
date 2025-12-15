@@ -13,6 +13,8 @@
     shotsPerBurst: 2
     burstCooldown: 1
     projectileSpeed: 35
+    availableModes:
+    - Burst
     selectedMode: Burst
   - type: NFWeaponDetails
     class: weapon-details-class-pistol
