@@ -9,10 +9,12 @@
   - type: Clothing
     sprite: Forge/Objects/Weapons/Guns/Pistols/peacemake.rsi
   - type: Gun
-    fireRate: 2.5
+    projectileSpeed: 45
+    angleDecay: 4
+    fireRate: 3
+    burstFireRate: 2
     shotsPerBurst: 2
     burstCooldown: 1
-    projectileSpeed: 35
     availableModes:
     - Burst
     selectedMode: Burst
