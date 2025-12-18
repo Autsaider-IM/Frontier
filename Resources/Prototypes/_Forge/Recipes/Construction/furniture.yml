@@ -36,34 +36,4 @@
   description: Выглядит довольно странно... Судя по всему в конструкции присутствует тритий.
   components:
   - type: Sprite
-    state: TL_flag
-  - type: Construction
-    graph: TL_flag
-    node: TLFlag
-
-- type: constructionGraph
-  id: TL_Flags
-  start: start
-  graph:
-  - node: start
-    edges:
-    - to: TLFlag
-      completed:
-      - !type:SnapToGrid
-      steps:
-      - material: Cloth
-        amount: 5
-        doAfter: 2
-  - node: TLFlag
-    entity: TLFlag
-
-- type: construction
-  id: TLFlag
-  graph: TL_Flags
-  startNode: start
-  targetNode: TLFlag
-  category: construction-category-flags
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: true
-
+    state: tl_flag
