@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 12/18/2025 13:40:19
-  entityCount: 350
+  time: 12/20/2025 12:24:46
+  entityCount: 349
 maps: []
 grids:
 - 1
@@ -247,7 +247,7 @@ entities:
           2,1:
             0: 61178
           2,2:
-            0: 8480
+            0: 8992
           2,-1:
             0: 37888
           3,1:
@@ -394,13 +394,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 9.5,8.5
-      parent: 1
-- proto: BannerTL
-  entities:
-  - uid: 229
-    components:
-    - type: Transform
-      pos: 9.5,9.5
       parent: 1
 - proto: BarricadeBlock
   entities:
@@ -1418,6 +1411,11 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 9.5,8.5
       parent: 1
+  - uid: 229
+    components:
+    - type: Transform
+      pos: 9.5,10.5
+      parent: 1
   - uid: 231
     components:
     - type: Transform
@@ -1495,6 +1493,11 @@ entities:
       parent: 1
 - proto: SyndieFlag
   entities:
+  - uid: 230
+    components:
+    - type: Transform
+      pos: 9.5,12.5
+      parent: 1
   - uid: 267
     components:
     - type: Transform
@@ -1553,14 +1556,6 @@ entities:
     components:
     - type: Transform
       pos: 11.1576185,2.3528194
-      parent: 1
-- proto: TLFlag
-  entities:
-  - uid: 271
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 9.5,12.5
       parent: 1
 - proto: ToiletDirtyWater
   entities:
@@ -2313,11 +2308,6 @@ entities:
     components:
     - type: Transform
       pos: 11.5,-1.5
-      parent: 1
-  - uid: 230
-    components:
-    - type: Transform
-      pos: 9.5,10.5
       parent: 1
 - proto: WallRockBasaltMagmite
   entities:

@@ -36,7 +36,7 @@
   description: Выглядит довольно странно... Судя по всему в конструкции присутствует тритий.
   components:
   - type: Sprite
-    state: tl_flag
+    state: techniclogistic _flag
   - type: Construction
-    graph: tl_flag
+    graph: techniclogistic _flag
     node: TLFlag
