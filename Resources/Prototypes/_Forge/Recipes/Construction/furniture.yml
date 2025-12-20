@@ -37,3 +37,6 @@
   components:
   - type: Sprite
     state: tl_flag
+  - type: Construction
+    graph: tl_flag
+    node: TLFlag
