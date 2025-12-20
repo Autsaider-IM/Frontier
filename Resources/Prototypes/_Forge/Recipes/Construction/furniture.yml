@@ -34,9 +34,3 @@
   id: TLFlag
   name: флаг TechnicLogistic
   description: Выглядит довольно странно... Судя по всему в конструкции присутствует тритий.
-  components:
-  - type: Sprite
-    state: techniclogistic_flag
-  - type: Construction
-    graph: techniclogistic_flag
-    node: TLFlag
