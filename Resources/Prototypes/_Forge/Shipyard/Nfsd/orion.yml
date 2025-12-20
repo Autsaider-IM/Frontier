@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: TL Орион MK2
   description: Крупногабаритный линейный крейсер. Рекомендованный состав команды 4-8 человек.
-  price: 589000
+  price: 489000
   category: Large
   group: Security
   access: Bailiff
