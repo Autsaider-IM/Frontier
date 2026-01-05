@@ -51,8 +51,8 @@
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
   - type: RevolverAmmoProvider
     capacity: 7
-    chambers: [ True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null ]
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
   - type: MagazineVisuals
     magState: mag
     steps: 4
@@ -119,8 +119,8 @@
     projectileSpeed: 35
   - type: RevolverAmmoProvider
     capacity: 4
-    chambers: [ True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null ]
+    chambers: [ True, True, True, True ]
+    ammoSlots: [ null, null, null, null ]
   - type: StaticPrice
     price: 200
 
