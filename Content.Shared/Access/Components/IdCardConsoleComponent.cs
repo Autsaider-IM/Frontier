@@ -78,7 +78,6 @@ public sealed partial class IdCardConsoleComponent : Component
         "HeadOfSecurity", // Frontier: moved down, alphabetic w.r.t. "Sheriff"
         "HeadOfPersonnel", // Frontier: moved down, alphabetic w.r.t. "Station Representative"
         "StationTrafficController", // Frontier
-        //"Modules" // Forge Frontier
         //"Theatre",
     };
 
