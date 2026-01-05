@@ -118,9 +118,9 @@
   - type: Gun # Corvax-Forge
     projectileSpeed: 35
   - type: RevolverAmmoProvider
-    capacity: 4
-    chambers: [ True, True, True, True ]
-    ammoSlots: [ null, null, null, null ]
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
   - type: StaticPrice
     price: 200
 
