@@ -181,6 +181,12 @@
     - NfsdAmmoStatic
     - ReportingStatic # DeltaV
     - CorvaxAmmoStatic #Corvax-Frontier
+    - NFMercenaryMagazineStatic
+    - NFMercenaryStorageStatic
+    - NfsdToolsStatic
+    - NfsdTargetsStatic
+    - NfsdBoardsStatic
+    - NfsdReportingStatic
     dynamicPacks:
     - CorvaxShuttleGunsDynamic #Corvax-Frontier
     - CorvaxAmmoDynamic #Corvax-Frontier
