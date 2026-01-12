@@ -1538,7 +1538,6 @@
       whitelist:
         - Bailiff
         - Sheriff
-
 # Forge-Change
 - type: listing
   id: UplinkSecurityAnarchist
@@ -1580,7 +1579,6 @@
         - Bailiff
         - Sheriff
 # Forge-Change-End
-
 - type: listing
   id: UplinkSecurityCrateEngineeringDSBF
   productEntity: CrateEngineeringDSBF
