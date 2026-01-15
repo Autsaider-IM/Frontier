@@ -4,7 +4,7 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/15/2026 11:27:31
+  time: 01/15/2026 11:47:19
   entityCount: 348
 maps: []
 grids:
@@ -1373,18 +1373,16 @@ entities:
   - uid: 345
     components:
     - type: Transform
-      pos: 1.5,8.5
+      pos: 1.5,9.5
       parent: 1
   - uid: 346
     components:
     - type: Transform
-      pos: 1.5,9.5
+      pos: 1.5,8.5
       parent: 1
 - proto: ButtonFrameCaution
   entities:
-  - uid: 195
-    mapInit: true
-    paused: true
+  - uid: 202
     components:
     - type: Transform
       pos: -0.5,8.5
@@ -4547,21 +4545,11 @@ entities:
       canCollide: False
 - proto: SignalButtonWindows
   entities:
-  - uid: 202
-    mapInit: true
-    paused: true
+  - uid: 195
     components:
     - type: Transform
       pos: -0.5,8.5
       parent: 1
-    - type: UseDelay
-      delays:
-        default:
-          endTime: 12.2332677
-          startTime: 0
-          length: 0.5
-    - type: DeviceNetwork
-      address: 2BB3-0626
     - type: DeviceLinkSource
       linkedPorts:
         346:
