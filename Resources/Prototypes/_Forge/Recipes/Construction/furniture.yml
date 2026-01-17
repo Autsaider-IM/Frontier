@@ -34,3 +34,7 @@
   id: TLFlag
   name: флаг TechnicLogistic
   description: Выглядит довольно странно... Судя по всему в конструкции присутствует тритий.
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Wallmounts/flags.rsi
+    state: techniclogistic_flag

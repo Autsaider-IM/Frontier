@@ -277,8 +277,10 @@
 #    - Plasma # Frontier
     - Anomalite # Frontier
     storage: # Frontier
+# Forge-Change-Start
       Anomalite: 300 # Frontier: one free charge
     storageLimit: 300 # Frontier: one charge
+# Forge-Change-End
   # - type: OreSiloClient # Frontier
   - type: Fixtures
     fixtures:
