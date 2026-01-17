@@ -11,29 +11,28 @@
 # Notes:
 #
 - type: vessel
-  id: Serpent
+  id: WaspS
   parent: BaseVessel
-  name: TL Змей
-  description: Крупногабаритный научный шаттл компании TL. Рекомендуемый экипаж 3-5 человек.
-  price: 166900
-  category: Large
+  name: TL Оса
+  description: Крохотный транспортный челнок, ранее являвшийся истребителем поддержки TL. Рекомендованный экипаж 1 человек.
+  price: 16900
+  category: Small
   group: Shipyard
-  shuttlePath: /Maps/_Forge/Shuttles/Science/serpent.yml
-  guidebookPage: Null
+  shuttlePath: /Maps/_Forge/Shuttles/Science/wasp.yml
   class:
   - Science
 
 - type: gameMap
-  id: Serpent
-  mapName: 'TL Змей'
-  mapPath: /Maps/_Forge/Shuttles/Science/serpent.yml
+  id: WaspS
+  mapName: 'TL Оса'
+  mapPath: /Maps/_Forge/Shuttles/Science/wasp.yml
   minPlayers: 0
   stations:
-    Serpent:
+    WaspS:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Змей {1}'
+          mapNameTemplate: 'Оса {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

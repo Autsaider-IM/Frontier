@@ -11,29 +11,28 @@
 # Notes:
 #
 - type: vessel
-  id: Serpent
+  id: Guardian
   parent: BaseVessel
-  name: TL Змей
-  description: Крупногабаритный научный шаттл компании TL. Рекомендуемый экипаж 3-5 человек.
-  price: 166900
-  category: Large
+  name: TL Страж
+  description: Среднегабаритный исследовательский шаттл, построенный по чертежам одного из судов NT. Рекомендованный экипаж 1-3 человека.
+  price: 66300
+  category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_Forge/Shuttles/Science/serpent.yml
-  guidebookPage: Null
+  shuttlePath: /Maps/_Forge/Shuttles/Science/guardian.yml
   class:
   - Science
 
 - type: gameMap
-  id: Serpent
-  mapName: 'TL Змей'
-  mapPath: /Maps/_Forge/Shuttles/Science/serpent.yml
+  id: Guardian
+  mapName: 'TL Страж'
+  mapPath: /Maps/_Forge/Shuttles/Science/guardian.yml
   minPlayers: 0
   stations:
-    Serpent:
+    Guardian:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Змей {1}'
+          mapNameTemplate: 'Страж {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
