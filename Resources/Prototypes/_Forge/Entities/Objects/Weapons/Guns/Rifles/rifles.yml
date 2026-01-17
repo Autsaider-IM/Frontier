@@ -588,7 +588,7 @@
 
 - type: entity
   name: Anarchist
-  parent: [BaseWeaponRifleAssaultChamber45, BaseC3SyndicateContraband, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [BaseWeaponRifleAssaultChamber45, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleAnarchist
   description: The TechnicLogistic assault carbine from the Self-Defense Forces has a high authority and rate of fire, but the large caliber makes the weapon quite cumbersome.
   components:
