@@ -43,8 +43,6 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
-          availableJobs: {}
-        - type: StationJobs
           availableJobs:
             NFPirate: [ 1, 1 ]
             NFPirateFirstMate: [ 1, 1 ]
