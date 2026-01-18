@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Sprited by Taro Varne",
+  "copyright": "Based off of and inspired by suits from TG station, redrawn, edited and in some cases even created by dustylens (github)",
   "size": {
     "x": 32,
     "y": 32
@@ -15,10 +15,6 @@
       "directions": 4
     },
     {
-      "name": "equipped-OUTERCLOTHING-resomi",
-      "directions": 4
-    },
-	{
       "name": "equipped-OUTERCLOTHING-vox",
       "directions": 4
     },
@@ -40,6 +36,10 @@
     },
     {
       "name": "equipped-OUTERCLOTHING-dog",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-harpy",
       "directions": 4
     }
   ]

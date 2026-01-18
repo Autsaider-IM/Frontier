@@ -55,6 +55,5 @@
     - id: RadioHandheldNF
     - id: SurvivalKnife
     - id: NFInflatableWindowStack
-    - id: NFInflatableCrateStack
     - id: NFInflatableDockStack
 # endregion

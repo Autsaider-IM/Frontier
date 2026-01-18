@@ -4,11 +4,6 @@
   description: signal-port-description-power-toggle
 
 - type: sinkPort
-  id: Pause
-  name: tape-recorder-menu-stopped-button
-  description: signal-port-description-pause
-
-- type: sinkPort
   id: Record
   name: tape-recorder-menu-recording-button
   description: signal-port-description-record
