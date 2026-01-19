@@ -2,9 +2,9 @@ meta:
   format: 7
   category: Grid
   engineVersion: 268.1.0
-  forkId: frontier_mapping
-  forkVersion: 3b3442d4074ca2d6cb83f9311844873ccc85d759
-  time: 01/07/2026 10:38:37
+  forkId: ""
+  forkVersion: ""
+  time: 01/19/2026 03:51:27
   entityCount: 1243
 maps: []
 grids:
@@ -2022,16 +2022,6 @@ entities:
       parent: 1
 - proto: BannerNfsd
   entities:
-  - uid: 172
-    components:
-    - type: Transform
-      pos: 12.5,38.5
-      parent: 1
-  - uid: 181
-    components:
-    - type: Transform
-      pos: 8.5,38.5
-      parent: 1
   - uid: 1273
     components:
     - type: Transform
@@ -5359,10 +5349,10 @@ entities:
       color: '#990000FF'
 - proto: GravityGeneratorMini
   entities:
-  - uid: 695
+  - uid: 494
     components:
     - type: Transform
-      pos: 8.5,20.5
+      pos: 12.5,20.5
       parent: 1
 - proto: Grille
   entities:
@@ -5976,12 +5966,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 14.5,12.5
       parent: 1
-- proto: ShieldGeneratorSmall
+- proto: ShieldGeneratorMedium
   entities:
-  - uid: 696
+  - uid: 476
     components:
     - type: Transform
-      pos: 12.5,20.5
+      pos: 8.5,20.5
       parent: 1
 - proto: SignalButtonWindows
   entities:
@@ -6123,6 +6113,16 @@ entities:
       parent: 1
 - proto: SubstationBasic
   entities:
+  - uid: 172
+    components:
+    - type: Transform
+      pos: 12.5,38.5
+      parent: 1
+  - uid: 181
+    components:
+    - type: Transform
+      pos: 8.5,38.5
+      parent: 1
   - uid: 691
     components:
     - type: Transform
@@ -8584,6 +8584,20 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 18.5,25.5
       parent: 1
+- proto: WeaponTurretM220
+  entities:
+  - uid: 446
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 15.5,41.5
+      parent: 1
+  - uid: 467
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 5.5,41.5
+      parent: 1
 - proto: WeaponTurretTarnyxReload
   entities:
   - uid: 461
@@ -8597,18 +8611,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 15.5,10.5
-      parent: 1
-  - uid: 467
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 15.5,41.5
-      parent: 1
-  - uid: 476
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,41.5
       parent: 1
 - proto: WeaponTurretType35
   entities:
