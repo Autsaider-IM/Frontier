@@ -3128,7 +3128,7 @@ entities:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
-- proto: WallPlastitanium
+- proto: WallPlastitaniumCapital
   entities:
   - uid: 393
     components:

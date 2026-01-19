@@ -4,7 +4,7 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/19/2026 02:16:48
+  time: 01/19/2026 11:51:28
   entityCount: 713
 maps: []
 grids:
@@ -4834,34 +4834,32 @@ entities:
     - type: Transform
       pos: 3.5,13.5
       parent: 1
-- proto: WeaponTurretM220
+- proto: WeaponTurretType35
   entities:
   - uid: 678
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -1.5,3.5
+      pos: -1.5,9.5
       parent: 1
   - uid: 679
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -1.5,9.5
+      pos: -1.5,3.5
       parent: 1
   - uid: 680
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 10.5,3.5
+      pos: 10.5,9.5
       parent: 1
   - uid: 681
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 10.5,9.5
+      pos: 10.5,3.5
       parent: 1
-- proto: WeaponTurretType35
-  entities:
   - uid: 682
     components:
     - type: Transform
