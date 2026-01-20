@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/19/2026 11:54:39
-  entityCount: 2927
+  time: 01/20/2026 11:31:05
+  entityCount: 2939
 maps: []
 grids:
 - 2
@@ -6073,6 +6073,66 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-2.5
+      parent: 2
+  - uid: 2928
+    components:
+    - type: Transform
+      pos: -3.5,21.5
+      parent: 2
+  - uid: 2929
+    components:
+    - type: Transform
+      pos: -2.5,21.5
+      parent: 2
+  - uid: 2930
+    components:
+    - type: Transform
+      pos: -1.5,21.5
+      parent: 2
+  - uid: 2931
+    components:
+    - type: Transform
+      pos: -0.5,21.5
+      parent: 2
+  - uid: 2932
+    components:
+    - type: Transform
+      pos: 0.5,21.5
+      parent: 2
+  - uid: 2933
+    components:
+    - type: Transform
+      pos: 1.5,21.5
+      parent: 2
+  - uid: 2934
+    components:
+    - type: Transform
+      pos: 2.5,21.5
+      parent: 2
+  - uid: 2935
+    components:
+    - type: Transform
+      pos: 3.5,21.5
+      parent: 2
+  - uid: 2936
+    components:
+    - type: Transform
+      pos: 4.5,21.5
+      parent: 2
+  - uid: 2937
+    components:
+    - type: Transform
+      pos: 5.5,21.5
+      parent: 2
+  - uid: 2938
+    components:
+    - type: Transform
+      pos: 6.5,21.5
+      parent: 2
+  - uid: 2939
+    components:
+    - type: Transform
+      pos: 6.5,20.5
       parent: 2
 - proto: CableMV
   entities:

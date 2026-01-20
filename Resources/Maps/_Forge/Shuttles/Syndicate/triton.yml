@@ -4,7 +4,7 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/19/2026 12:05:56
+  time: 01/20/2026 11:35:46
   entityCount: 1591
 maps: []
 grids:
@@ -7037,7 +7037,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,-25.5
       parent: 1
-- proto: GunneryServerHigh
+- proto: GunneryServerOmega
   entities:
   - uid: 1006
     components:
@@ -7045,9 +7045,11 @@ entities:
       pos: 2.5,3.5
       parent: 1
     - type: Battery
-      startingCharge: 0
+      startingCharge: 3.324171
     - type: ApcPowerReceiver
-      powerLoad: 20
+      powerLoad: 100
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: GyroscopeSyndicate
   entities:
   - uid: 1007
