@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 262.0.0
+  engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 10/13/2025 15:34:53
-  entityCount: 939
+  time: 01/20/2026 06:18:11
+  entityCount: 936
 maps: []
 grids:
 - 1
@@ -4857,21 +4857,6 @@ entities:
     - type: Transform
       pos: -2.5,-0.5
       parent: 1
-- proto: MachineAnomalyVessel
-  entities:
-  - uid: 651
-    components:
-    - type: Transform
-      pos: 11.5,-0.5
-      parent: 1
-- proto: MachineAPE
-  entities:
-  - uid: 652
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 7.5,-2.5
-      parent: 1
 - proto: MachineArtifactAnalyzer
   entities:
   - uid: 653
@@ -4879,36 +4864,29 @@ entities:
     - type: Transform
       pos: 9.5,-7.5
       parent: 1
+- proto: MachineFrame
+  entities:
+  - uid: 651
+    components:
+    - type: Transform
+      pos: 7.5,-2.5
+      parent: 1
+  - uid: 652
+    components:
+    - type: Transform
+      pos: 11.5,-0.5
+      parent: 1
+  - uid: 655
+    components:
+    - type: Transform
+      pos: 9.5,2.5
+      parent: 1
 - proto: MachineMaterialSilo
   entities:
   - uid: 654
     components:
     - type: Transform
       pos: 5.5,-2.5
-      parent: 1
-- proto: MachineMiniAnomalyGenerator
-  entities:
-  - uid: 655
-    components:
-    - type: Transform
-      pos: 9.5,2.5
-      parent: 1
-- proto: MaterialAnomalite1
-  entities:
-  - uid: 656
-    components:
-    - type: Transform
-      pos: 8.675543,2.3785784
-      parent: 1
-  - uid: 657
-    components:
-    - type: Transform
-      pos: 8.34221,2.5105226
-      parent: 1
-  - uid: 658
-    components:
-    - type: Transform
-      pos: 8.65471,2.677189
       parent: 1
 - proto: MedkitRadiationFilled
   entities:

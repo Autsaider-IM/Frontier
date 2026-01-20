@@ -4,7 +4,7 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/17/2026 03:31:02
+  time: 01/20/2026 06:07:20
   entityCount: 1720
 maps: []
 grids:
@@ -8916,6 +8916,20 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: SerpentMothershipComputer
+  entities:
+  - uid: 1161
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 29.5,9.5
+      parent: 1
+  - uid: 1162
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 25.5,9.5
+      parent: 1
 - proto: ShelfRGlass
   entities:
   - uid: 1118
@@ -11744,19 +11758,5 @@ entities:
     components:
     - type: Transform
       pos: 25.5,10.5
-      parent: 1
-- proto: ZenichMothershipComputer
-  entities:
-  - uid: 1161
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,9.5
-      parent: 1
-  - uid: 1162
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 29.5,9.5
       parent: 1
 ...

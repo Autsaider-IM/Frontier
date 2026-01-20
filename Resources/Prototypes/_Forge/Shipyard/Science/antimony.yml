@@ -11,28 +11,28 @@
 # Notes:
 #
 - type: vessel
-  id: WaspS
+  id: Antimony
   parent: BaseVessel
-  name: TL Оса
-  description: Крохотный транспортный челнок, ранее являвшийся истребителем поддержки TL. Рекомендованный экипаж 1 человек.
+  name: NSC Сурьма
+  description: Добывающий челнок поддержки Обливиона. Произведено Nexus Star Consortium Рекомендованный экипаж 1 человек.
   price: 16900
   category: Small
-  group: Custom
-  shuttlePath: /Maps/_Forge/Shuttles/Science/wasp.yml
+  group: Custom 
+  shuttlePath: /Maps/_Forge/Shuttles/Science/antimony.yml
   class:
   - Science
 
 - type: gameMap
-  id: WaspS
-  mapName: 'TL Оса'
-  mapPath: /Maps/_Forge/Shuttles/Science/wasp.yml
+  id: Antimony
+  mapName: 'NSC Сурьма'
+  mapPath: /Maps/_Forge/Shuttles/Science/antimony.yml
   minPlayers: 0
   stations:
-    WaspS:
+    Antimony:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Оса {1}'
+          mapNameTemplate: 'Сурьма {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
