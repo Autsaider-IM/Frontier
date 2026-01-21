@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: TL Змей
   description: Крупногабаритный научный шаттл компании TL. Рекомендуемый экипаж 3-5 человек.
-  price: 166900
+  price: 181900
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_Forge/Shuttles/Science/serpent.yml

@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/20/2026 06:07:20
-  entityCount: 1720
+  time: 01/21/2026 07:05:01
+  entityCount: 1724
 maps: []
 grids:
 - 1
@@ -1501,6 +1501,25 @@ entities:
       rot: 3.141592653589793 rad
       pos: 21.5,16.5
       parent: 1
+- proto: AmmoLoaderSmall
+  entities:
+  - uid: 1723
+    components:
+    - type: Transform
+      pos: 22.5,18.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        ammo_loader: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 1724
+    - type: DeviceLinkSource
+      linkedPorts:
+        1722:
+        - - AmmoLoaderLoad
+          - SpaceArtilleryLoad
 - proto: APCBasic
   entities:
   - uid: 1004
@@ -2456,6 +2475,11 @@ entities:
     components:
     - type: Transform
       pos: 20.5,12.5
+      parent: 1
+  - uid: 927
+    components:
+    - type: Transform
+      pos: 19.5,25.5
       parent: 1
   - uid: 980
     components:
@@ -4979,6 +5003,11 @@ entities:
     - type: Transform
       pos: 30.5,49.5
       parent: 1
+  - uid: 1721
+    components:
+    - type: Transform
+      pos: 19.5,25.5
+      parent: 1
 - proto: CatwalkDarkTile
   entities:
   - uid: 115
@@ -6156,6 +6185,14 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+- proto: ForgeAmmoDrum20mmBase
+  entities:
+  - uid: 1724
+    components:
+    - type: Transform
+      parent: 1723
+    - type: Physics
+      canCollide: False
 - proto: GasMixerOn
   entities:
   - uid: 677
@@ -8962,6 +8999,13 @@ entities:
           - 1120
           - 1121
           - 1122
+- proto: ShieldGeneratorSmall
+  entities:
+  - uid: 203
+    components:
+    - type: Transform
+      pos: 20.5,22.5
+      parent: 1
 - proto: ShuttersNormal
   entities:
   - uid: 796
@@ -10027,13 +10071,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 29.5,10.5
       parent: 1
-- proto: TelecomServerFilledShuttle
-  entities:
-  - uid: 927
-    components:
-    - type: Transform
-      pos: 20.5,22.5
-      parent: 1
 - proto: Thruster
   entities:
   - uid: 68
@@ -10628,11 +10665,6 @@ entities:
     components:
     - type: Transform
       pos: 22.5,38.5
-      parent: 1
-  - uid: 203
-    components:
-    - type: Transform
-      pos: 19.5,25.5
       parent: 1
   - uid: 206
     components:
@@ -11665,6 +11697,14 @@ entities:
       parent: 715
     - type: Physics
       canCollide: False
+- proto: WeaponTurretL85Autocannon
+  entities:
+  - uid: 1722
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 19.5,25.5
+      parent: 1
 - proto: WeaponTurretM220
   entities:
   - uid: 887
