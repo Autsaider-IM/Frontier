@@ -59,3 +59,15 @@
         enum.AnomalyGeneratorVisualLayers.Base:
           True: { visible: true }
           False: { visible: false }
+# Forge-Change
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - RawMaterial 
+    materialWhiteList:
+    - Anomalite 
+    storage:
+      Anomalite: 300
+    storageLimit: 300
+  - type: Machine
+    board: MachineMiniAnomalyGeneratorCircuitboard

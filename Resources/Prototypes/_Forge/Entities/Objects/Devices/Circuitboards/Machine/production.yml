@@ -416,3 +416,26 @@
       prototype: ComputerShuttleAntag
     - type: ComputerTabletopBoard # Frontier
       prototype: ComputerTabletopShuttleAntag # Frontier
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: MachineMiniAnomalyGeneratorCircuitboard
+  name: плата мини генератора аномалий
+  description: Прочерк
+  components:
+  - type: Sprite
+    sprite: Forge/Bluespace/module.rsi
+    state: bluespace
+  - type: MachineBoard
+    prototype: MachineMiniAnomalyGenerator
+    stackRequirements:
+      Glass: 150
+      Steel: 150
+      Plasma: 45
+      Gold: 45
+      Silver: 45
+      Uranium: 45
+      CableHV: 5
+      Bluespace: 5
+  - type: Item
+    size: Normal
