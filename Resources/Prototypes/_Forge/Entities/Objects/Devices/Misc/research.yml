@@ -4,7 +4,7 @@
   name: technology disk (NFSD)
   description: Disk with NFSD technology. Wait, THAT DEBUG STAFF!
   components:
-  - type: TechDisk
+  - type: TechnologyDisk
     disciplines:
     - ForgeNFSDtechDiscipline
   - type: Item
