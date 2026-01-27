@@ -6,7 +6,7 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 namespace Content.Shared.Research.Components;
 
 [RegisterComponent]
-public sealed partial class TechnologyDiskComponent : Component
+public sealed partial class TechDiskComponent : Component
 {
     [DataField("disciplines", customTypeSerializer: typeof(PrototypeIdListSerializer<TechDisciplinePrototype>))]
     public List<string> Disciplines = new();
