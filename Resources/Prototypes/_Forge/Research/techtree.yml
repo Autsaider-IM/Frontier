@@ -905,6 +905,8 @@
   discipline: NFMedical
   tier: 1
   cost: 1000
+  # recipeUnlocks:
+  # - MedicalTechFabCircuitboard
   technologyPrerequisites:
   - ForgeTechnologyDevelopmentStrategy
   prerequisiteLineType: Diagonal
@@ -1601,10 +1603,23 @@
   cost: 35000
   recipeUnlocks:
   - ClothingOuterHardsuitAAMr
-  # - ClothingOuterHardsuitAAMrAdv
   technologyPrerequisites:
   - ForgeHardsuitsArmoredAdvanced
   position: -9, -1
+
+- type: technology
+  id: ForgeHardsuitsArmoredAdvancedAAMr2
+  name: nf-research-technology-hardsuits-armored-advanced-aamr2
+  entityIcon: ClothingOuterHardsuitAAMr
+  discipline: NFArsenalMercenary
+  tier: 1
+  cost: 35000
+  recipeUnlocks:
+  - ClothingOuterHardsuitAAMrAdv
+  prerequisiteLineType: Diagonal
+  technologyPrerequisites:
+  - ForgeHardsuitsArmoredAdvancedAAMr
+  position: -10, -2
 
 - type: technology
   id: NFThermalVision

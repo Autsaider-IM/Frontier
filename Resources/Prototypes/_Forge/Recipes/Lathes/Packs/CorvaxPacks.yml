@@ -513,3 +513,18 @@
   - ForgeAmmoPirate90mm
   - ForgePirateTovek
   - ForgePirate150mm
+
+# region Нулевые технологии
+- type: latheRecipePack
+  id: ForgePackZeroMed
+  recipes:
+  - MedicalTechFabCircuitboard
+
+- type: latheRecipe
+  id: MedicalTechFabCircuitboardRecipe
+  result: MedicalTechFabCircuitboard
+  completetime: 6
+  materials:
+    Gold: 9000
+    Plasma: 3000
+    Cloth: 1000
